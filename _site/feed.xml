@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4081/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4081/" rel="alternate" type="text/html" /><updated>2017-10-04T12:40:32+07:00</updated><id>http://localhost:4081/</id><title type="html">Yazied DA</title><entry><title type="html">P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</title><link href="http://localhost:4081/P02-4/" rel="alternate" type="text/html" title="P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-4</id><content type="html" xml:base="http://localhost:4081/P02-4/">&lt;p&gt;####&lt;strong&gt;Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Menurutu &lt;a href=&quot;https://id.wikipedia.org/wiki/Bahasa_pemrograman&quot;&gt;Wikipedia&lt;/a&gt; Bahasa pemrograman, atau sering diistilahkan juga dengan bahasa komputer atau bahasa pemrograman komputer, adalah instruksi standar untuk memerintah komputer. Bahasa pemrograman ini merupakan suatu himpunan dari aturan sintaks dan semantik yang dipakai untuk mendefinisikan program komputer. Bahasa ini memungkinkan seorang programmer dapat menentukan secara persis data mana yang akan diolah oleh komputer, bagaimana data ini akan disimpan/diteruskan, dan jenis langkah apa secara persis yang akan diambil dalam berbagai situasi.&lt;br /&gt;&lt;br /&gt;
+Menurut tingkat kedekatannya dengan mesin komputer, bahasa pemrograman terdiri dari:&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Bahasa Mesin&lt;/strong&gt;, yaitu memberikan perintah kepada komputer dengan memakai kode bahasa biner, contohnya 01100101100110&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Bahasa Tingkat Rendah&lt;/strong&gt;, atau dikenal dengan istilah bahasa rakitan (bah.Inggris Assembly), yaitu memberikan perintah kepada komputer dengan memakai kode-kode singkat (kode mnemonic), contohnya kode_mesin|MOV, SUB, CMP, JMP, JGE, JL, LOOP, dsb.&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Bahasa Tingkat Menengah&lt;/strong&gt;, yaitu bahasa komputer yang memakai campuran instruksi dalam kata-kata bahasa manusia (lihat contoh Bahasa Tingkat Tinggi di bawah) dan instruksi yang bersifat simbolik, contohnya {, }, ?, «, », &amp;amp;&amp;amp;, ||, dsb.&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Bahasa Tingkat Tinggi&lt;/strong&gt;, yaitu bahasa komputer yang memakai instruksi berasal dari unsur kata-kata bahasa manusia, contohnya begin, end, if, for, while, and, or, dsb. Komputer dapat mengerti bahasa manusia itu diperlukan program compiler atau interpreter.&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Sebagian besar&lt;/strong&gt; bahasa pemrograman digolongkan &lt;strong&gt;sebagai Bahasa Tingkat Tinggi&lt;/strong&gt;, &lt;strong&gt;hanya bahasa C&lt;/strong&gt; yang digolongkan sebagai &lt;strong&gt;Bahasa Tingkat Menengah&lt;/strong&gt; dan &lt;strong&gt;Assembly&lt;/strong&gt; yang merupakan Bahasa &lt;strong&gt;Tingkat Rendah&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5 Bahasa Pemograman yang terpopuler&lt;/strong&gt; adalah :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt; &lt;br /&gt;
+Bahasa yang sangat saya sukai. Karna java itu banyak di perlukan dan bisa digunakan di berbagai platform baik &lt;strong&gt;mobile&lt;/strong&gt;, &lt;strong&gt;web&lt;/strong&gt;, &lt;strong&gt;middleware&lt;/strong&gt; bahkan banyak engine pun menggunakan java.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PHP&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;PHP&lt;/strong&gt; adalah bahasa pemograman untuk membuat aplikasi berbasis &lt;strong&gt;website&lt;/strong&gt;. Ini adalah bahasa pemograman pertama yang sangat saya tekuni setelah java.&lt;br /&gt;
+PHP tersendiri banyak sekali peminatnya untuk pemograman web. Selain itu PHP banyak sekali &lt;strong&gt;framework&lt;/strong&gt; yang di buat &lt;strong&gt;open source&lt;/strong&gt;. Seperti &lt;strong&gt;CI&lt;/strong&gt;, &lt;strong&gt;Laravel&lt;/strong&gt;, &lt;strong&gt;Yii&lt;/strong&gt;, &lt;strong&gt;Symphony&lt;/strong&gt; dll.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Python&lt;/strong&gt; adalah bahasa pemograman tingkat tinggi yang menurut saya sangat-sangat sederhana. Selain tidak ada &lt;strong&gt;semicolon atau tanda ( ; ),&lt;/strong&gt; python tersendiri adalah bahasa pemograman yang menggunakan &lt;strong&gt;memory tidak terlalu rakus&lt;/strong&gt;. Sangat &lt;strong&gt;ringan&lt;/strong&gt; sekali. Banyak di gunakan untuk system dengan data yang besar. Selain itu AI atau &lt;strong&gt;Artificial Intelligence&lt;/strong&gt; banyak di &lt;strong&gt;kembangkan melalui&lt;/strong&gt; Python.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GO&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;GO&lt;/strong&gt; adalah bahasa pemograman &lt;strong&gt;muda&lt;/strong&gt; atau masih baru. Belum banyak orang yang menggunakan ini. Akan tetapi saya sangat menyukai ini. Karena bahasa ini seperti perpaduan bahasa C/C++ dengan Python. Memang GO Language ini berbasiskan &lt;strong&gt;Assembly dan C/C++&lt;/strong&gt; tetapi seperti ada perpaduan dengan Python yaitu tidak adanya semicolon ( ; ) . Selain itu GO ini oleh developer Cina di build sebagai &lt;strong&gt;Cloud Storage&lt;/strong&gt; dan hasilnya &lt;strong&gt;tidak memakan memory besar&lt;/strong&gt;, bahkan ukuran file dapat di &lt;strong&gt;compress sangat minum menjadi kumpulan binary&lt;/strong&gt;. Bahasa ini di kembangkan oleh &lt;strong&gt;google&lt;/strong&gt; seperti namanya.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Ruby&lt;/strong&gt; adalah bahasa pemograman yang di kembangkan developer asal &lt;strong&gt;Jepang&lt;/strong&gt;. Ruby tersendiri adalah bahasa yang keren. Bahasa ini terkenal dengan kecepatan dan ringan saat pemrosesan data. Bahasa ini dipakai oleh &lt;strong&gt;GOJEK&lt;/strong&gt; kalau tidak salah. Bayangkan berapa juta user yang memakai dan di handle oleh bahasa ini. Betapa bagusnya bukan? Dan satu lagi, blog yang saya buat ini di build oleh &lt;strong&gt;Ruby&lt;/strong&gt; dengan framework &lt;strong&gt;jekyll&lt;/strong&gt;.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">####Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</summary></entry><entry><title type="html">P02 - 3 | Apa itu Array dan ada berapa jenis?</title><link href="http://localhost:4081/P02-3/" rel="alternate" type="text/html" title="P02 - 3 | Apa itu Array dan ada berapa jenis?" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-3</id><content type="html" xml:base="http://localhost:4081/P02-3/">&lt;p&gt;####&lt;strong&gt;Apa itu Array dan ada berapa jenis?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Array 1 Dimensi
+Array satu dimensi adalah suatu array yang terdiri dari 1 subskrip array, yaitu jumlah data maksimum.&lt;br /&gt;&lt;br /&gt;
+Bentuk umum :&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Tipe_data nama_array[jumlah_max_data];&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+Contoh :&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;int Nilai[5]; nilai[1] nilai[2] nilai[3] nilai[4] nilai[5]&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Array 2 Dimensi
+Array dua dimensi adalah suatu  array yang terdiri dari 2 subskrip, yaitu jumlah elemen baris dan jumlah  elemen kolom.
+Bentuknya dapat berupa matriks atau tabel.&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Tipe_array nama_array[baris][kolom];&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Array Multidimensi
+Array multidimensi adalah suatu array yang mempunyai subskrip lebih dari dua. Bentuk pendeklarasian array sama saja dengan array dimensi satu maupun array dimensi dua.&lt;br /&gt;&lt;br /&gt;
+Bentuk umumnya yaitu :&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;tipe_array nama_array[ukuran1][ukuran2]…[ukuranN];&lt;/code&gt;&lt;br /&gt;
+Contoh :&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;float X[2][4][3];
+X[0][0][0] X[0][0][1] X[0][0][2] X[1][0][0] X[1][0][1] X[1][0][2]
+X[0][1][0] X[0][1][1] X[0][1][2] X[1][1][0] X[1][1][1] X[1][1][2]
+X[0][2][0] X[0][2][1] X[0][2][2] X[1][2][0] X[1][2][1] X[1][2][2]
+X[0][3][0] X[0][3][1] X[0][3][2] X[1][3][0] X[1][3][1] X[1][3][2]&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">####Apa itu Array dan ada berapa jenis?</summary></entry><entry><title type="html">P02 - 2 | Jenis-Jenis Operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?</title><link href="http://localhost:4081/P02-2/" rel="alternate" type="text/html" title="P02 - 2 | Jenis-Jenis Operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-2</id><content type="html" xml:base="http://localhost:4081/P02-2/">&lt;p&gt;####&lt;strong&gt;Jenis-Jenis operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Yang saya ketahui operator apa saja yang di gunakan dalam setiap tipe data adalah :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Operator Aritmatik
+Operator ini membentuk perhitungan aritmatik. Kedua operan dari operasi aritmatik ini dapat berupa nilai integer atau real&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Operator Assignment
+Operator ini digunakan memasukan nilai kedalam sebuah variabel, tanpa menghilangkan atau mengosongkan nilai variabel sebelumnya.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Increase and Decrease
+Penulisan ini dilambangkan dengan ++ (Increade) dan – (decrease). Operator ini berfungsi untuk menaikan atau menurunkan satu satuan nilai pada sebuah variabel.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Operator Relasional
+Operator ini membandingkan dua operan dan hasilnya berupa nilai boolean (BENAR atau SALAH). Operasi relasional dapat dilakukan pada dua nilai dengan tipe data yang sama: tipe data integer, riil, char, string, maupun boolean.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Operator logika
+Operator logika adalah operator yang digunakan untuk mengkombinasikan hasil ekspresi yang mengandung operator relasional.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">####Jenis-Jenis operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?</summary></entry><entry><title type="html">P02 - 1</title><link href="http://localhost:4081/P02-1/" rel="alternate" type="text/html" title="P02 - 1" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-1</id><content type="html" xml:base="http://localhost:4081/P02-1/">&lt;p&gt;Tentukan tipe data yang tepat untuk menyimpan data di bawah ini (anda dapat menggunakan “char, float, short, int, long, bool,string“)&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Huruf (&quot;A&quot;); --&amp;gt; char&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Pesan Singkat (&quot;Saya Sedang Rapat&quot;); --&amp;gt; string&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Nilai Mahasiswa (&quot;80&quot;); --&amp;gt; short&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;No Hp(&quot;089699971950&quot;); --&amp;gt; char/string&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;NIM(&quot;15416273201004&quot;); --&amp;gt; char/string karna long membuatuhkan 8bit memory&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Luas Persegi(&quot;4&quot;); --&amp;gt; short&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Luas Lingkaran (&quot;7.5&quot;); --&amp;gt; float&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Jenis Kelamin (&quot;Laki-laki&quot;); --&amp;gt; bool/string/char sama saja tergantung kebutuhan karna sama-sama 1bit memory&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Usia (&quot;5&quot;) --&amp;gt; short&lt;/code&gt;;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tentukan tipe data yang tepat untuk menyimpan data di bawah ini (anda dapat menggunakan “char, float, short, int, long, bool,string“)</summary></entry><entry><title type="html">Struktur Data</title><link href="http://localhost:4081/stuktur-data/" rel="alternate" type="text/html" title="Struktur Data" /><published>2017-09-25T00:00:00+07:00</published><updated>2017-09-25T00:00:00+07:00</updated><id>http://localhost:4081/stuktur-data</id><content type="html" xml:base="http://localhost:4081/stuktur-data/">&lt;p&gt;Setelah yang saya baca tentang Struktur Data melalui &lt;a href=&quot;https://id.wikipedia.org/wiki/Struktur_data&quot;&gt;referensi Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;struktur-data&quot;&gt;Struktur Data&lt;/h3&gt;
+&lt;p&gt;Adalah cara penyimpanan, penyusunan, dan pengaturan data di dalam media penyimpanan sehingga data tersebut dapat digunakan secara effisien.&lt;/p&gt;
+
+&lt;p&gt;Jadi menurut saya dalam mata kuliah ini kita akan mempelajari bagaimana cara pengelolaan data secara effisien dan bagaimana mestinya sesuai aturan-aturan yang Struktur Data.&lt;/p&gt;
+
+&lt;p&gt;Yang saya ketahui tentang struktur data adalah kita mempelajari bagaimana cara mengelola data yang kita punya dan di implementasikan ke dalam komputer. Mungkin seperti contoh berikut.
+Saya adalah mahasiswa. 
+Mahasiswa memiliki :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Nama&lt;/li&gt;
+  &lt;li&gt;NIM&lt;/li&gt;
+  &lt;li&gt;Tanggal Lahir&lt;/li&gt;
+  &lt;li&gt;Semester&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Apakah dari point 1 - 4 memiliki tipe karakter data yang sama?
+Kita ulas..&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Nama —&amp;gt; Apakah mengandung angka? Tidak&lt;/li&gt;
+  &lt;li&gt;NIM —&amp;gt; Apakah mengandung huruf? Tidak&lt;/li&gt;
+  &lt;li&gt;Tanggal Lahir —&amp;gt; Apakah mengandung angka dan huruf? Tergantung&lt;/li&gt;
+  &lt;li&gt;Semester —&amp;gt; Apakah mengandung huruf?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Nah data data disanalah yang nanti akan kita olah ke komputer agar lebih effisien saat komputer membaca dan tidak boros memori atau istilah manusiawinya tersimpan pada tempatnya.&lt;/p&gt;
+
+&lt;p&gt;Mungkin cukup sekian ulasan apa itu struktur data yang telah saya baca dari referensi tersebut.&lt;/p&gt;</content><author><name></name></author><summary type="html">Setelah yang saya baca tentang Struktur Data melalui referensi Wikipedia</summary></entry><entry><title type="html">Apa itu Database dan RDMS?</title><link href="http://localhost:4081/apa-itu-database-dan-rdms/" rel="alternate" type="text/html" title="Apa itu Database dan RDMS?" /><published>2017-09-25T00:00:00+07:00</published><updated>2017-09-25T00:00:00+07:00</updated><id>http://localhost:4081/apa-itu-database-dan-rdms</id><content type="html" xml:base="http://localhost:4081/apa-itu-database-dan-rdms/">&lt;p&gt;Setelah yang saya baca tentang Struktur Data melalui &lt;a href=&quot;https://id.wikipedia.org/wiki/Pangkalan_data&quot;&gt;referensi Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;database&quot;&gt;Database&lt;/h3&gt;
+&lt;p&gt;Database atau basis data adalah kumpulan informasi/data yang di simpan didalam komputer secara sistematik sehingga dapat diperiksa menggunakan program komputer untuk memperoleh informasi dari basis data tersebut.&lt;/p&gt;
+
+&lt;p&gt;Jadi database adalah untuk pengimpanan data saat kita membuat program.&lt;/p&gt;
+
+&lt;h3 id=&quot;rdbms&quot;&gt;RDBMS&lt;/h3&gt;
+&lt;p&gt;RDMS merupakan sekumpula data yang disimpan sedimikian rupa sehingga dapat diambil untuk pengguna dan data tersebut saling berhubungan.RDMS merupakan sekumpulan aplikasi yang kompleks sehingga dapat digunakan untuk memanipulasi database.&lt;/p&gt;
+
+&lt;p&gt;Ada 3 prinsip dari RDMS antara lain :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data Definition
+Mendefinisikan jenis data yang akan dibuat(dapat berupa angka atau huruf), cara validasi data,relasi data dll.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data Manipulation
+Memanipulasi data dengan melakukan beberapa pengerjaan seperti melakukan query (select,insert,delete dsb.),menyaring data dsb.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data Control
+Mengontrol data dengan memberikan batasab-batasan atau permission pada data tersebut.Seingga dapat diatur siapa yang boleh dan tidak melihat data,memanipulasi data,bagaimana data tersebut digunakan oleh banyak user dsb.
+Semua operasi I/O harus menggunakan DBMS, sehingga setiap user yang akan mengakses database, DBMS menyediakan penghubung dengan database.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Setelah yang saya baca tentang Struktur Data melalui referensi Wikipedia</summary></entry><entry><title type="html">Tentang Saya</title><link href="http://localhost:4081/about-me/" rel="alternate" type="text/html" title="Tentang Saya" /><published>2017-09-25T00:00:00+07:00</published><updated>2017-09-25T00:00:00+07:00</updated><id>http://localhost:4081/about-me</id><content type="html" xml:base="http://localhost:4081/about-me/">&lt;p&gt;Mahasiswa Program Studi Teknik Informatika di &lt;a href=&quot;http://www.ubpkarawang.ac.id/&quot;&gt;Universitas Buana Perjuangan&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sekilas-tentang-saya&quot;&gt;Sekilas tentang saya&lt;/h3&gt;
+&lt;p&gt;Nama saya Yazied Dhiya Uddien Abdurrahman atau biasa di panggil Yazid. Alasan kenapa saya masuk Teknik Informatika karena saya suka sekali dengan teknologi IPTEK apalagi di dunia Software Development. Menurut saya ini keren dan menantang, disamping itu dunia ini penuh dengan ke unik-an, bisa jadi tidak semua orang menyukai ini dan dalam teknisnya pun macam-macam rupanya dan sangat luas untuk di pelajari. Selain sangat menyukai dunia Software Development saya pun saya menyukai olahraga, lebih tepatnya di dunia Sepak Bola. Bermain hingga menonton saya sangat menyukainya.&lt;/p&gt;
+
+&lt;p&gt;Pengalaman saya di bidang IT lebih banya di Software Development, hampir lebih 3 tahun dari saya duduk di bangku sekolah SMK saya sudah menyukainya. Ya ini sesuai dengan alasan saya mengapa menyukainya sampai saat ini yaitu banyak keunikan dan tantangan serta sangat luas untuk di pelajari. Dalam Software Development bahasa yang saya sangat sukai adalah java, apalagi java untuk membuat aplikasi Android hampir 2 tahun belakangan ini saya menekuninya dalam segi pekerjaan, riset atau hanya sekedar update teknologi terbaru di dalamnya.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mahasiswa Program Studi Teknik Informatika di Universitas Buana Perjuangan</summary></entry><entry><title type="html">Install Netbeans</title><link href="http://localhost:4081/install-netbeans/" rel="alternate" type="text/html" title="Install Netbeans" /><published>2017-09-22T00:00:00+07:00</published><updated>2017-09-22T00:00:00+07:00</updated><id>http://localhost:4081/install-netbeans</id><content type="html" xml:base="http://localhost:4081/install-netbeans/">&lt;p&gt;Bahan yang di perlukan :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;JDK ( Java Development Kit )&lt;/li&gt;
+  &lt;li&gt;Netbeans &lt;a href=&quot;https://netbeans.org/downloads/start.html?platform=windows&amp;amp;lang=en&amp;amp;option=all&quot;&gt;download&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;JDK adalah singkatan dari Java Development Kit yaitu software yang digunakan untuk membangun aplikasi-aplikasi java. Tanpa JDK kita tidak akan bisa membangun atau membuat berbagai macam aplikasi java.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download JDK ( Java Development Kit ) at &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;link&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step1.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 1&quot; /&gt;
+&lt;b&gt;Accept License Agreement, and download for your Windows version ( 32/64 bit ) x86 means 32 bit&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/b&gt;
+Untuk instalasi JDK, lihat tutorial di link berikut : &lt;br /&gt;
+&lt;a href=&quot;http://himatifubp.or.id/cara-mengisntall-java-development-kit-jdk-pada-windows/&quot;&gt;http://himatifubp.or.id/cara-mengisntall-java-development-kit-jdk-pada-windows/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;instalasi-netbeans&quot;&gt;Instalasi Netbeans&lt;/h3&gt;
+&lt;p&gt;Download at &lt;a href=&quot;https://netbeans.org/downloads/start.html?platform=windows&amp;amp;lang=en&amp;amp;option=all&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Buka file instalasi netbeans yang sudah di download tadi&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step2.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 2&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Klik Next&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step3.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 3&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Accept License Agreement dan Klik NEXT&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step4.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 4&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Pemilihan folder instalasi&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Kolom pertama adalah dimana kita mau menyimpan folder instalasi Netbeans kita ( Lebih baik tidak di ubah )&lt;/li&gt;
+      &lt;li&gt;Kolom kedua adalah dimana tempat folder instalasi JDK yang kita install tadi&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+      &lt;li&gt;Bila sudah OK klik NEXT
+&lt;img src=&quot;/images/step5.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 5&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pemilihan folder instalasi glassfish&lt;br /&gt;&lt;br /&gt;
+Glashfish adalah webserver yang bisa di gunakan oleh java, namun sepertinya kita belum terlalu menggunakannya. Klik NEXT saja.&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step6.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 6&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Summary dari step step sebelumnya.&lt;br /&gt;&lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Centang check for updates bila ingin mendapatkan pemberitahuan tentang pembaharuan software Netbeans.&lt;/li&gt;
+      &lt;li&gt;Klik NEXT&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step7.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 7&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Instalasi sedang berjalan.&lt;br /&gt;&lt;br /&gt;
+Tunggu sampai selesai…&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step8.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 8&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Instalasi berhasil.&lt;br /&gt;&lt;br /&gt;
+Klik finish&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step9.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 9&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Buka Netbeans.&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/step10.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 10&quot; /&gt;
+&lt;img src=&quot;/images/step11.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 11&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Bahan yang di perlukan : JDK ( Java Development Kit ) Netbeans download</summary></entry><entry><title type="html">NONE</title><link href="http://localhost:4081/when-academy-prevet-my-education/" rel="alternate" type="text/html" title="NONE" /><published>2017-05-26T00:00:00+07:00</published><updated>2017-05-26T00:00:00+07:00</updated><id>http://localhost:4081/when-academy-prevet-my-education</id><content type="html" xml:base="http://localhost:4081/when-academy-prevet-my-education/">&lt;p&gt;NONE&lt;/p&gt;</content><author><name></name></author><summary type="html">NONE</summary></entry><entry><title type="html">Yang saya dapatkan dalam seminar Tanda Tangan Digital | KOMINFO</title><link href="http://localhost:4081/yang-saya-dapatkan-di-seminar-tanda-tangan-digital/" rel="alternate" type="text/html" title="Yang saya dapatkan dalam seminar Tanda Tangan Digital | KOMINFO" /><published>2016-12-14T00:00:00+07:00</published><updated>2016-12-14T00:00:00+07:00</updated><id>http://localhost:4081/yang-saya-dapatkan-di-seminar-tanda-tangan-digital</id><content type="html" xml:base="http://localhost:4081/yang-saya-dapatkan-di-seminar-tanda-tangan-digital/">&lt;h2 id=&quot;1-menambah-wawasan-ekonomi-digital&quot;&gt;1. Menambah wawasan ekonomi digital&lt;/h2&gt;
+&lt;p&gt;Dalam seminar Tanda Tangan Digital banyak sekali wawasan yang saya dapat, yang pertama yaitu tentang marketing di dalam dunia digital. Di dalam dunia digital ternyata bukan hanya sekedar ngoding dan membuat aplikasi, ternyata dari kita membuat aplikasi saja bisa membuat ekonomi negara naik. Contohnya amerika dengan facebook, google dan lain lain, amerika bisa di bilang penguasa bisnis digital di dunia. Dan dalam seminar pun di sebutkan kata kata yang bikin kaget, yaitu Indonesia menjadi target utama bisnis digital oleh Amerika dan China. Mungkin karena Indonesia adalah salah satu negara dengan penduduk terbanyak, dan produk digital yang meraka buat akan laku di pasar negeri ini. Sebenarnya kita harus bisa menjadi TUAN RUMAH di negeri sendiri dengan membuat produk produk digital dan digunakan oleh semua masyarakat atau dalam arti lain tidak kalah saing dengna produk digital / aplikasi buatan luar. Dan di bahas juga masalah ekonomi digital di Indoensia bukan hanya satu lembaga saja yaitu KOMINFO atau pihak pemerintah yang bersangkutan dengan teknologi digital. Akan tetapi banyak lembaga juga yang harus berkolaborasi untuk memajukan Ekonomi Digital ( E-Commerce ) di Indonesia, seperti Kementerian Keuangan, Perdangan, Koperasi, BUMN, Organisasi Digital dan lain lain untuk memajukan Ekonomi Digital di Indonesia.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-menambah-wawasan-teknis-tentang-keamanan-dalam-dunia-digital&quot;&gt;2. Menambah wawasan teknis tentang keamanan dalam dunia digital&lt;/h2&gt;
+&lt;p&gt;Dalam seminar lebih banyak di bahas tentang secutity encryption dan decryption. Mulai dari masalah keamanan dalam dunia digital adalah kurang pedulinya pembuatan aplikasi di sisi keamanan. Disana disebutkan banyak sekali website sekolah dan pemerintahan yang mudah sekali di retas. Kenapa? Karena dalam tahap pembuatan aplikasi hanya sampai UAT ( User Acceptance Test ) atau pengujian aplikasi sampai tahap aplikasi itu dapat di terima dan di pakai oleh pengguna. Ibaratnya seperti membuat website kampus yang penting dalam website itu bisa update foto, pengumuman, artikel dan dapat nyaman di pakai pengguna dan setelah di di publish tanpa memikirkan keamanannya. Disini kurang pedulinya terhadap keamanan. Tapi tidak semua sampai di tahap UAT saja, banyak juga yang sampai SAT ( Security Acceptance Test ). Dalam SAT biasanya hanya menambahkan SSL ( Secure Socket Layer ) atau mengamankan / mengenkripsi semua bentuk data atau transaksi dalam web tersebut. Sampai tahap ini pun belum bisa di bilang aman. Ada lagi yang namanya Penetration Testing ( pentest ) adalah testing dimana seseorang melakukan serangan untuk menemukan kelemahan yang ada dalam website / server tersebut. Sudah aman? Belum.. kata seorang pembicara yang membahas security digital. Ada lagi yang namanya Hacker Acceptance Test. Jadi solusi untuk keamanan digital dalam seminar tersebut adalah Security Awareness  ( Kesadaran akan keamanan ) dan Digital Signature. Apa it Digital Signature? Kita bahasa di bawah ini.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-digital-signature--tanda-tangan-digital-&quot;&gt;3. Digital Signature ( Tanda Tangan Digital )&lt;/h2&gt;
+&lt;p&gt;Apasih Tanda Tangan Digital? Apa tanda tangan yang biasa kita lakukan di kertas terus di scan dan di masukan di dalam dokumen digital? Awalnya saya berfikir seperti itu.. Oke kita ke pembahasan utama. Jadi Tanda Tangan Digital adalah suatu Identitas Diri kita di dalam dunia digital. Awalnya saya berpikir, kan udah ada sosial media? Itukan bisa jadi identitas diri kita. Tapi ternyata Tanda Tangan Digital disini adalah Identitas Diri seperti KTP/E-KTP yang di buat oleh lembaga pemerintahan yaitu KOMINFO dan memiliki kekuatan HUKUM.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Penasaran? Dalam seminar saya di suruh register Tanda Tangan Digital disni &lt;a href=&quot;https://raKOMINFO.rootca.or.id/register&quot; target=&quot;blank&quot;&gt;KLIK&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Persyaratannya adalah NIK dan email. Setelah saya daftar, saya harus konfirmasi secara offline di tempat untuk mendapatkan Sertifikat Tanda Tangan Digital yang di kirimkan melalui email. Kok sertifikat yang di dapat? Ya, jadi untuk membuat Tanda Tangan Digital adalah sertifikat yang di buat oleh KOMINFO berdasarkan NIK kita. File sertifikatnya berbentuk .p12, mungkin agak asing di lihat ya.. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sebenarnya sertifikat ini adalah sertifikat umum yang di gunakan di dalam security cyber. Coba deh buka di browser ketik &lt;a href=&quot;http://google.com&quot; target=&quot;blank&quot;&gt;mbah google&lt;/a&gt; di pojok kiri atas ada gambar gembok / kunci, dan URL google.com berubah menjadi https://www.google.co.id &lt;b&gt;&amp;lt;– HTTPS, HTTPS&lt;/b&gt; adalah protokol komunikasi / atau jalur komunikasi dalam web yang secure / aman. Bila di sadap, transaksi web menggunakan https akan terlihat huruf acak atau ter ENKRIPSI oleh sertifikatnya. Dan hanya bisa di baca menggunakan key sertifikat tersebut. Di dalam sertifikat ( .p12, .cert, dll ) itu memiliki public key dan private key tersendiri. Jadi apa keunikannya? Kan hanya sertifikat umum? Awalnya saya menyangka begitu. Ternyata Sertifikat Tanda Tangan Digital yang di berikan oleh KOMINFO memiliki KEY yang di buat secara aman atau sulit di pecahkan dan memiliki keuatan HUKUM.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Contoh penggunaannya :&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Pembuatan Tanda Tangan Digital dalam Dokumen Office. Di dalam aplikasi Office terdapat fitur Digital Signature, dan disana saat membuat Digital Signature kita bisa memasukan Sertifikat yang telah diberikan KOMINFO sebagai ke absahan Dokumen yang kita buat. Jadi jika anda ingin membuat Dokumen PENTING yang tidak mau di EDIT oleh orang lain dengan Digital Signature bisa terbukti ke Absahan dokumen tersebut asli atau tidak dari kita. Karna jika dokumen yang telah di buat dengan Digital Signature ( Tanda Tangan Digital ) di EDIT, Digital Signature di dalam Dokumen akan hilang dan dokumen tersebut bisa di bilang tidak asli dari pembuat.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Email, enkripsi pesan dan Tanda Tangan Digital di dalam EMAIL. Penggunaan Tanda Tangan Digital di dalam email adalah untuk memastikan email yang di terima oleh target adalah asli dari pengirim tersebut. Kadang di dalam dunia digital banyak sekali yang menggunakan email palsu atau mengatasnamakan orang lain. Disini peran Tanda Tangan Digital adalah untuk memastikan email yang kita dapat dari pengirim adalah asli dibuat si pengirimim. Ohiya sertifikat yang telah di berikan oleh KOMINFO adalah bersifat rahasia, sertifikat itu adalah identitas diri anda dalam dunia digital jadi jaga baik baik sertifkat dan sandinya.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Transaksi E-Commerce. Ke depannya di dalam E-Commerce di Indonesia nanti. Setiap transaksi di anjurkan menggunakan sertifikat sebagai Tanda Tangan Digital dalam transaksi, biasanya transaksi E-Commerce dengan kartu kredit bisa di manipulasi atau di bobol oleh parah penjahat cyber ( Hacker ). Dengan sertifikat sebagai Tanda Tangan Digital ini adalah untuk verifikasi transaksi yang di buat asli atau tidaknya. Di dalam seminar pun di simulasi kan ke dalam Aplikasi WEB untuk transaksi PER-BANKAN ( BANK ). Contoh dalam simulai adalah transfer uang ke rekening lain, saat transaksi pengguna di minta untuk memasukan sertifikat dan sandinya. Jika sertifikat dan sandi valid transaksi tersebut bisa di proses dan memiliki Tanda Tangan Digital.&lt;br /&gt;&lt;br /&gt;
+Kedepannya Tanda Tangan Digital ini bisa menjadi PUSAT IDENTITAS diri kita di dalam dunia DIGITAL. Contoh yang di sebutkan dalam seminar adalah, bila anda mendaftar ke suatu E-Commerce anda hanya di minta untuk melakukan Tanda Tangan Digital dan tidak perlu memasukan email, nama lengkap, alamat dan lain lain yang agak banyak karena Data Diri anda sudah terpusat di satu SISTEM jadi ga perlu repot repot daftar ke suatu E-Commerce / Web yang memerlukan registrasi dengan Tanda Tangan Digital data diri kita bisa langsung di dapat dan di daftarkan otomatis ke E-Commerce / Web tersebut.&lt;br /&gt;&lt;br /&gt;
+Tanda Tangan Digital pun menurut saya membantu pengaman security cyber Indonesia lebih baik, selain dari sisi teknologi juga dalam sisi HUKUM karena Identitas Semua orang yang sudah memiliki Sertifikat Tanda Tangan Digital dan memiliki keuatan hukum. Dari sini bisa saja penipuan yang sering terjadi dalam E-Commerce menurun karena adanya hukum, apalagi sekarang ada undang undang ITE ( Informasi dan Transaksi Elektronik ) jadi bisa memilih penjual di dalam E-Commerce ini aman atau tidak, dan pasti pembeli akan lebih memilih penjual yang mempunya Tanda Tangan Digital. Semoga kita sebagai mahasiswa bisa membantu penerapan, pengembangan, keamanan dan perekonomian dalam dunia digital di negara ini lebih baik lagi. Jadilah TUAN RUMAH di negeri sendiri dengan terus belajar dan mengembangkan produk-produk digital karena negara kita menjadi market / pasar negara besar. 
+&lt;br /&gt;&lt;br /&gt;Sekian terima kasih :)&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">1. Menambah wawasan ekonomi digital Dalam seminar Tanda Tangan Digital banyak sekali wawasan yang saya dapat, yang pertama yaitu tentang marketing di dalam dunia digital. Di dalam dunia digital ternyata bukan hanya sekedar ngoding dan membuat aplikasi, ternyata dari kita membuat aplikasi saja bisa membuat ekonomi negara naik. Contohnya amerika dengan facebook, google dan lain lain, amerika bisa di bilang penguasa bisnis digital di dunia. Dan dalam seminar pun di sebutkan kata kata yang bikin kaget, yaitu Indonesia menjadi target utama bisnis digital oleh Amerika dan China. Mungkin karena Indonesia adalah salah satu negara dengan penduduk terbanyak, dan produk digital yang meraka buat akan laku di pasar negeri ini. Sebenarnya kita harus bisa menjadi TUAN RUMAH di negeri sendiri dengan membuat produk produk digital dan digunakan oleh semua masyarakat atau dalam arti lain tidak kalah saing dengna produk digital / aplikasi buatan luar. Dan di bahas juga masalah ekonomi digital di Indoensia bukan hanya satu lembaga saja yaitu KOMINFO atau pihak pemerintah yang bersangkutan dengan teknologi digital. Akan tetapi banyak lembaga juga yang harus berkolaborasi untuk memajukan Ekonomi Digital ( E-Commerce ) di Indonesia, seperti Kementerian Keuangan, Perdangan, Koperasi, BUMN, Organisasi Digital dan lain lain untuk memajukan Ekonomi Digital di Indonesia.</summary></entry></feed>
