@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4081/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4081/" rel="alternate" type="text/html" /><updated>2017-10-04T12:45:13+07:00</updated><id>http://localhost:4081/</id><title type="html">Yazied DA</title><entry><title type="html">P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</title><link href="http://localhost:4081/P02-4/" rel="alternate" type="text/html" title="P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-4</id><content type="html" xml:base="http://localhost:4081/P02-4/">&lt;p&gt;&lt;strong&gt;Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4081/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4081/" rel="alternate" type="text/html" /><updated>2017-10-04T12:46:24+07:00</updated><id>http://localhost:4081/</id><title type="html">Yazied DA</title><entry><title type="html">P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</title><link href="http://localhost:4081/P02-4/" rel="alternate" type="text/html" title="P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-4</id><content type="html" xml:base="http://localhost:4081/P02-4/">&lt;p&gt;&lt;strong&gt;Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;Menurutu &lt;a href=&quot;https://id.wikipedia.org/wiki/Bahasa_pemrograman&quot;&gt;Wikipedia&lt;/a&gt; Bahasa pemrograman, atau sering diistilahkan juga dengan bahasa komputer atau bahasa pemrograman komputer, adalah instruksi standar untuk memerintah komputer. Bahasa pemrograman ini merupakan suatu himpunan dari aturan sintaks dan semantik yang dipakai untuk mendefinisikan program komputer. Bahasa ini memungkinkan seorang programmer dapat menentukan secara persis data mana yang akan diolah oleh komputer, bagaimana data ini akan disimpan/diteruskan, dan jenis langkah apa secara persis yang akan diambil dalam berbagai situasi.&lt;br /&gt;&lt;br /&gt;
@@ -28,18 +28,18 @@ PHP tersendiri banyak sekali peminatnya untuk pemograman web. Selain itu PHP ban
 &lt;hr /&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Array 1 Dimensi
+    &lt;p&gt;Array 1 Dimensi&lt;br /&gt;
 Array satu dimensi adalah suatu array yang terdiri dari 1 subskrip array, yaitu jumlah data maksimum.&lt;br /&gt;&lt;br /&gt;
 Bentuk umum :&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Tipe_data nama_array[jumlah_max_data];&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
 Contoh :&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;int Nilai[5]; nilai[1] nilai[2] nilai[3] nilai[4] nilai[5]&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Array 2 Dimensi
+  &lt;li&gt;Array 2 Dimensi&lt;br /&gt;
 Array dua dimensi adalah suatu  array yang terdiri dari 2 subskrip, yaitu jumlah elemen baris dan jumlah  elemen kolom.
 Bentuknya dapat berupa matriks atau tabel.&lt;br /&gt;&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Tipe_array nama_array[baris][kolom];&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Array Multidimensi
+  &lt;li&gt;Array Multidimensi&lt;br /&gt;
 Array multidimensi adalah suatu array yang mempunyai subskrip lebih dari dua. Bentuk pendeklarasian array sama saja dengan array dimensi satu maupun array dimensi dua.&lt;br /&gt;&lt;br /&gt;
 Bentuk umumnya yaitu :&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;tipe_array nama_array[ukuran1][ukuran2]…[ukuranN];&lt;/code&gt;&lt;br /&gt;
