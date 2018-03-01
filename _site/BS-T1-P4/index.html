@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BASIS-DATA-P1 POST 4 | Apa itu Physical model – Yazied DA – </title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Apa itu Physical model
+
+" />
+    <meta property="og:description" content="Apa itu Physical model
+
+" />
+    
+    <meta name="author" content="Yazied DA" />
+
+    
+    <meta property="og:title" content="BASIS-DATA-P1 POST 4 | Apa itu Physical model" />
+    <meta property="twitter:title" content="BASIS-DATA-P1 POST 4 | Apa itu Physical model" />
+    
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Yazied DA - " href="/feed.xml" />
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Yazied DA</a></h1>
+            <p class="site-description"></p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>BASIS-DATA-P1 POST 4 | Apa itu Physical model</h1>
+
+  <div class="entry">
+    <p><strong>Apa itu Physical model</strong></p>
+
+<hr />
+<p>Physical database design adalah suatu proses untuk menghasilkan gambaran dari implementasi basis data pada tempat penyimpanan, menjelaskan dasar dari relasi, organisasi file dan indeks yang digunakan untuk efisiensi data dan menghubungkan beberapa integrity constraints dan tindakan keamanan (Connolly,2002,p478).</p>
+
+<p>Langkah keempat : Menterjemahkan global logical data model untuk target DBMS. Bertujuan untuk menghasilkan skema basis data relasional dalam global logical data model yang dapat diimplemetasikan ke DBMS.</p>
+
+<p>Pada perancangan model physical, langkah-langkahnya adalah :</p>
+
+<p>a. Merancang basis relasional</p>
+
+<p>Dalam memulai merancang physical design, diperlukan untuk mengumpulkan dan memahami informasi tentang relasi yang dihasilkan dari logical database design. Informasi yang penting bisa didapatkan dari kamus data dan DDL.</p>
+
+<p>b. Merancang representasi dari data yang diperoleh</p>
+
+<p>Bertujuan untuk menentukan bagaimana setiap data yang diperoleh mewakili global logical data model ke dalam DBMS.</p>
+
+<p>c. Merancang enterprise constraints</p>
+
+<p>Pada langkah ini bertujuan untuk merancang batasan-batasan yang ada pada perusahaan.</p>
+
+<p>Langkah kelima : Merancang representasi physical. Bertujuan untuk menentukan organisasi file yang optimal untuk penyimpanan dan menentukan indeks yang dibutuhkan untuk meningkatkan performa.</p>
+
+<p>Terdapat tiga faktor yang memungkinkan digunakannya representasi physical :</p>
+
+<ol>
+  <li>
+    <p>Transaction throughput</p>
+  </li>
+  <li>
+    <p>Response time</p>
+  </li>
+  <li>
+    <p>Disk storage</p>
+  </li>
+</ol>
+
+<p>Dalam langkah kelima ini perlu untuk memahami system resources untuk meningkatkan performa basis data.</p>
+
+<p>Main memory
+Dengan semakin besar main memory yang ada maka akan dapat meningkatkan performa DBMS dan aplikasi basis data yang digunakan.</p>
+
+<p>CPU
+CPU mengontrol tugas-tugas dari system resources lain dan mengeksekusi prosesnya.</p>
+
+<p>Disk I/O
+Dengan menggunakan DBMS yang besar, maka disk I/O yang diperlukan sangat signifikan dalam menyimpan dan mengambil data. Untuk menghindari kemacetan transfer data, maka :</p>
+
+<p>Ø File sistem operasi harus dipisahkan dari file basis data.</p>
+
+<p>Ø File utama basis data harus dipisahkan dari file indeks.</p>
+
+<p>Ø File recovery log harus dipisahkan dari basis data yang sedang tidak digunakan.</p>
+
+<p>· Network</p>
+
+<p>Ketika jumlah data yang ditransfer telah banyak, maka dengan menggunakan network sangat dianjurkan. Selain itu juga untuk menghindari dari kemacetan dalam mentransfer data.</p>
+
+<p>Pada langkah kelima ini, tahapan-tahapannya adalah :</p>
+
+<p>Menganalisis transaksi
+Bertujuan untuk mengerti fungsi dari transaksi yang dijalankan pada basis data dan menganalisa transaksi yang penting. Kriteria kemampuan yang harus diidentifikasikan dalam menganalisa transaksi adalah :</p>
+
+<p>· Transaksi dapat berjalan secara sering dan akan mempunyai dampak yang signifikan pada performa.</p>
+
+<p>· Transaksi yang kritis pada operasi dan bisnis.</p>
+
+<p>· Waktu selama sehari atau seminggu ketika akan ada permintaan yang tinggi pada saat basis data dibuat.</p>
+
+<p>Memilih file organisasi
+Bertujuan untuk menyimpan data secara tepat ke tempat penyimpanan data. Ada beberapa pilihan struktur penyimpanan (Silberschatz,2002,p422), yaitu :</p>
+
+<p>Ø Heap</p>
+
+<p>Ø Hash</p>
+
+<p>Ø Sekuensial berindeks</p>
+
+<p>Ø Clusters</p>
+
+<p>Memilih indeks
+Bertujuan untuk meningkatkan performa dalam suatu sistem basis data. Salah satu pendekatan untuk memilih organisasi file yang cocok untuk relasi adalah untuk menyimpan tuples yang tidak disimpan dan dibuat sebanyak secondary indexes sebagaimana diperlukan. Oleh karena itu, atribut yang digunakan adalah:</p>
+
+<p>· Atribut yang sering digunakan untuk join operations untuk membuat lebih efisien.</p>
+
+<p>· Atribut yang sering dipesan untuk mengakses tuples pada suatu relasi didalam urutan yang menunjukkan atribut.</p>
+
+<p>Memperkirakan kebutuhan ruang penyimpanan
+Bertujuan untuk memperkirakan jumlah ruang penyimpanan yang akan diperlukan dalam basis data. Perkiraannya didasari pada ukuran setiap tabel dalam suatu relasi. Contohnya dalam lima tahun mendatang berapa kapasitas hard disk yang dibutuhkan untuk menampung data.</p>
+
+<p>Langkah keenam : Merancang pandangan pengguna. Bertujuan untuk merancang pandangan pengguna yang telah diidentifikasi selama mengumpulkan kebutuhan dan menganalisis langkah dari relasional Database Application Lifecycle. Contohnya pada branch terdiri dari direktur dan manajer pandangan.</p>
+
+<p>Langkah ketujuh : Merancang keamanan. Dalam sebuah sistem basis data, keamanan adalah elemen yang sangat penting mengingat isi dari basis data berupa informasi yang sangat penting. menurut Silberschatz (2002,p239) ukuran keamanan yang dapat diambil untuk melindungi basis data antara lain dari segi :</p>
+
+<p>· Sistem basis data : ada beberapa pengguna berwenang yang dizinkan untuk mengakses bagian basis data tertentu dan ada para pengguna yang lain hanya diizinkan untuk membaca data yang diinginkannya, tetapi tidak punya hak untuk mengubahnya. Kewajiban dari sistem basis data ini adalah menjaga batasan seperti di atas tetap terjaga.</p>
+
+<p>· Sistem operasi : tidak peduli betapa aman sistem basis datanya, apabila terjadi kelemahan dalam sistem operasi. Hal ini sama artinya dengan adanya akses yang tidak diinginkan dalam basis data. Jadi tingkat keamanan perangkat lunak dalam sistem operasi sangatlah penting seperti halnya keamanan yang dilakukan secara fisik.</p>
+
+<p>· Jaringan : seluruh sistem basis data memperbolehkan untuk mengakses lewat terminal atau jaringan, keamanan software-level dalam software jaringan sangat penting sebagai keamanan fisik, keduanya dibutuhkan dalam internet dan jaringan pribadi.</p>
+
+<p>· Fisik : situs yang mengandung sistem komputer harus secara fisik aman dari entri secara diam-diam dan bahaya oleh para penyelundup.</p>
+
+<p>· Manusia : otorisasi pada pengguna harus dilakukan secara hati-hati untuk mengurangi adanya kejadian dimana pengguna yang berwenang memberikan akses kepada orang lain dengan imbalan suap atau lainnya.</p>
+
+<p>Langkah kedelapan : Mempertimbangkan pengenalan dan redundansi kontrol. Pada langkah physical database design ini mempertimbangkan denormalisasi skema relational untuk meningkatkan performa. Hasil dari normalisasi adalah perancangan basis data logikal secara structural, konsisten, dan menekan jumlah redudansi. Faktor yang perlu dipertimbangkan adalah :</p>
+
+<p>· Denormalisasi membuat implementasi lebih kompleks</p>
+
+<p>· Denormalisasi selalu mengorbankan fleksibilitas</p>
+
+<p>· Denormalisasi akan membuat cepat dalam retrieve data tetapi lambat dalam update.</p>
+
+<p>Ukuran performa dari suatu perancangan basis data dapat dilihat dari sudut pandang tertentu yaitu melalui pendekatan efisiensi data (Normalisasi) atau pendekatan efisiensi proses (Denormalisasi). Efisiensi data dimaksudkan untuk meminimalkan kapasitas disk, dan efisiensi proses dimaksudkan untuk mempercepat proses saat retrieve data dari basis data.</p>
+
+<p>Langkah kesembilan : Memonitor dan memasang sistem operasi. Bertujuan untuk memonitor sistem operasi, meningkatkan performa dan menentukan perancangan sistem yang tepat atau menggambarkan perubahan kebutuhan.</p>
+
+
+  </div>
+
+  <div class="date">
+    Written on February 24, 2018
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/yaziedda"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/yaziedda"><i class="svg-icon twitter"></i></a>
+<a href="http://stackoverflow.com/users/5408944/yaziedda"><i class="svg-icon stackoverflow"></i></a>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

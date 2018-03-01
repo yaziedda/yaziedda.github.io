@@ -1,4 +1,292 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4081/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4081/" rel="alternate" type="text/html" /><updated>2017-10-04T12:46:24+07:00</updated><id>http://localhost:4081/</id><title type="html">Yazied DA</title><entry><title type="html">P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</title><link href="http://localhost:4081/P02-4/" rel="alternate" type="text/html" title="P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-4</id><content type="html" xml:base="http://localhost:4081/P02-4/">&lt;p&gt;&lt;strong&gt;Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-01T13:22:40+07:00</updated><id>http://localhost:4000/</id><title type="html">Yazied DA</title><entry><title type="html">BASIS-DATA-P1 POST 5 | Apa itu Grid Computing dan Cloud Computing ?</title><link href="http://localhost:4000/BS-T1-P5/" rel="alternate" type="text/html" title="BASIS-DATA-P1 POST 5 | Apa itu Grid Computing dan Cloud Computing ?" /><published>2018-02-24T00:00:00+07:00</published><updated>2018-02-24T00:00:00+07:00</updated><id>http://localhost:4000/BS-T1-P5</id><content type="html" xml:base="http://localhost:4000/BS-T1-P5/">&lt;p&gt;&lt;strong&gt;Apa itu Grid Computing dan Cloud Computing ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.skysilk.com/blog/wp-content/uploads/2017/03/Grid-v-Cloud-624x468.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Gambar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cloud computing merupakan sistem komputasi kolaboratif yang berbasis internet. Melalui sistem ini, para pengguna komputer dapat berbagi semua sumber dayanya. Mulai dari software, hardware, termasuk pusat data (server). Sehingga para pengguna komputer dapat menggunakan source tanpa perlu membeli, memiliki, atau menginstall program di dalam komputer yang membuat berkurangnya memori penyimpanan dalam komputer serta mempengaruhi kinerja komputer. Namun cukup dengan menyewa sumber daya (lunak atau peranti keras) dari server inti yang dipilih sesuai dengan kebutuhan (pay per use).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://mantec.org/wp-content/uploads/2017/11/cloud-computing.png&quot; alt=&quot;Alt text&quot; title=&quot;Gambar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;keuntungan Cloud Computing:
+(1) Keuntungan bagi para pelaku bisnis adalah minimalisasi biaya investasi infrastruktur publik sehingga bisnis bisa lebih terfokus pada aspek fungsionalitasnya
+(2) Bagi application developer, layanan PaaS memungkinkan pengembangan dan implementasi aplikasi dengan cepat sehingga meningkatkan produktivitas
+(3) Bagi para praktisi yang bergerak di industri TI, hal ini berarti terbukanya pasar baru bagi industri jasa pengembangan teknologi informasi
+(4) Bagi pebisnis di bidang infrastruktur, hal ini merupakan peluang yang besar karena dengan meningkatnya penggunaan layanan SaaS ini akan meningkatkan penggunaaan bandwidth internet
+(5) Integrasi aplikasi dengan berbagai perangkat&lt;/p&gt;
+
+&lt;p&gt;Kekurangan Cloud Computing :&lt;/p&gt;
+
+&lt;p&gt;(1) service level, artinya kemungkinan service performance yang kurang konsisten dari provider. Inkonsistensi cloud provider ini meliputi, data protection dan data recovery
+(2) privacy, yang berarti adanya resiko data user akan diakses oleh orang lain karena hosting dilakukan secara bersama-sama
+(3) compliance, yang mengacu pada resiko adanya penyimpangan level compliance dari provider terhadap regulasi yang diterapkan oleh user
+(4) data ownership mengacu pada resiko kehilangan kepemilikan data begitu data disimpan dalam cloud
+(5) data mobility, yang mengacu pada kemungkinan share data antar cloud service dan cara memperoleh kembali data jika suatu saat user melakukan proses terminasi terhadap layanan cloud Computing.&lt;/p&gt;
+
+&lt;p&gt;Contoh Implementasi Cloud Computing :&lt;/p&gt;
+
+&lt;p&gt;(1) Salesforce.com
+Salesforce.com adalah aplikasi Customer Relationship Management (CRM) berbasis software as services, dimana kita bisa mengakses aplikasi bisnis: kontak, produk, sales tracking, dashboard, dll.&lt;/p&gt;
+
+&lt;p&gt;(2) Yahoo dan Gmail&lt;/p&gt;
+
+&lt;p&gt;Grid Computing&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.ieeefinalyearprojects.org/images/IEEE_Project_Images/grid_computing.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Gambar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grid Computing adalah penggunaan sumber daya yang melibatkan banyak komputer yang terdistribusi dan terpisah secara geografis untuk memecahkan persoalan komputasi dalam skala besar.&lt;/p&gt;
+
+&lt;p&gt;Kemampuan komputasi grid adalah setara dengan mainframe karena semua komponennya (grid) di-cluster. Namun tidak seperti mainframe dan server SMP (symmetric multiprocessing) yang besar, grid bersifat terbuka (open system technologies) yang bisa mencakup system kecil-kecil dengan processor Intel dan OS Linux sehingga biaya jadi jauh lebih murah.&lt;/p&gt;
+
+&lt;p&gt;Contoh Grid Computing :&lt;/p&gt;
+
+&lt;p&gt;–  Oracle10g&lt;/p&gt;
+
+&lt;p&gt;Oracle telah membangun software infrastruktur komputasi grid yang mampu membagi dan menyeimbangkan semua beban (workload) di antara server-server yang berbeda, dan me-manage server-server yang berbeda itu sebagai satu kesatuan sistem.&lt;/p&gt;
+
+&lt;p&gt;Adapun produk grid dari Oracle adalah:&lt;/p&gt;
+
+&lt;p&gt;Storage Grid: Automatic Storage Management (ASM)
+Database Grid: Real Application Server (RAC)
+Application Grid: Oracle Streams
+Grid Control: Enterprise Manager Grid Control&lt;/p&gt;</content><author><name></name></author><summary type="html">Apa itu Grid Computing dan Cloud Computing ?</summary></entry><entry><title type="html">BASIS-DATA-P1 POST 4 | Apa itu Physical model</title><link href="http://localhost:4000/BS-T1-P4/" rel="alternate" type="text/html" title="BASIS-DATA-P1 POST 4 | Apa itu Physical model" /><published>2018-02-24T00:00:00+07:00</published><updated>2018-02-24T00:00:00+07:00</updated><id>http://localhost:4000/BS-T1-P4</id><content type="html" xml:base="http://localhost:4000/BS-T1-P4/">&lt;p&gt;&lt;strong&gt;Apa itu Physical model&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Physical database design adalah suatu proses untuk menghasilkan gambaran dari implementasi basis data pada tempat penyimpanan, menjelaskan dasar dari relasi, organisasi file dan indeks yang digunakan untuk efisiensi data dan menghubungkan beberapa integrity constraints dan tindakan keamanan (Connolly,2002,p478).&lt;/p&gt;
+
+&lt;p&gt;Langkah keempat : Menterjemahkan global logical data model untuk target DBMS. Bertujuan untuk menghasilkan skema basis data relasional dalam global logical data model yang dapat diimplemetasikan ke DBMS.&lt;/p&gt;
+
+&lt;p&gt;Pada perancangan model physical, langkah-langkahnya adalah :&lt;/p&gt;
+
+&lt;p&gt;a. Merancang basis relasional&lt;/p&gt;
+
+&lt;p&gt;Dalam memulai merancang physical design, diperlukan untuk mengumpulkan dan memahami informasi tentang relasi yang dihasilkan dari logical database design. Informasi yang penting bisa didapatkan dari kamus data dan DDL.&lt;/p&gt;
+
+&lt;p&gt;b. Merancang representasi dari data yang diperoleh&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk menentukan bagaimana setiap data yang diperoleh mewakili global logical data model ke dalam DBMS.&lt;/p&gt;
+
+&lt;p&gt;c. Merancang enterprise constraints&lt;/p&gt;
+
+&lt;p&gt;Pada langkah ini bertujuan untuk merancang batasan-batasan yang ada pada perusahaan.&lt;/p&gt;
+
+&lt;p&gt;Langkah kelima : Merancang representasi physical. Bertujuan untuk menentukan organisasi file yang optimal untuk penyimpanan dan menentukan indeks yang dibutuhkan untuk meningkatkan performa.&lt;/p&gt;
+
+&lt;p&gt;Terdapat tiga faktor yang memungkinkan digunakannya representasi physical :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Transaction throughput&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Response time&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disk storage&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Dalam langkah kelima ini perlu untuk memahami system resources untuk meningkatkan performa basis data.&lt;/p&gt;
+
+&lt;p&gt;Main memory
+Dengan semakin besar main memory yang ada maka akan dapat meningkatkan performa DBMS dan aplikasi basis data yang digunakan.&lt;/p&gt;
+
+&lt;p&gt;CPU
+CPU mengontrol tugas-tugas dari system resources lain dan mengeksekusi prosesnya.&lt;/p&gt;
+
+&lt;p&gt;Disk I/O
+Dengan menggunakan DBMS yang besar, maka disk I/O yang diperlukan sangat signifikan dalam menyimpan dan mengambil data. Untuk menghindari kemacetan transfer data, maka :&lt;/p&gt;
+
+&lt;p&gt;Ø File sistem operasi harus dipisahkan dari file basis data.&lt;/p&gt;
+
+&lt;p&gt;Ø File utama basis data harus dipisahkan dari file indeks.&lt;/p&gt;
+
+&lt;p&gt;Ø File recovery log harus dipisahkan dari basis data yang sedang tidak digunakan.&lt;/p&gt;
+
+&lt;p&gt;· Network&lt;/p&gt;
+
+&lt;p&gt;Ketika jumlah data yang ditransfer telah banyak, maka dengan menggunakan network sangat dianjurkan. Selain itu juga untuk menghindari dari kemacetan dalam mentransfer data.&lt;/p&gt;
+
+&lt;p&gt;Pada langkah kelima ini, tahapan-tahapannya adalah :&lt;/p&gt;
+
+&lt;p&gt;Menganalisis transaksi
+Bertujuan untuk mengerti fungsi dari transaksi yang dijalankan pada basis data dan menganalisa transaksi yang penting. Kriteria kemampuan yang harus diidentifikasikan dalam menganalisa transaksi adalah :&lt;/p&gt;
+
+&lt;p&gt;· Transaksi dapat berjalan secara sering dan akan mempunyai dampak yang signifikan pada performa.&lt;/p&gt;
+
+&lt;p&gt;· Transaksi yang kritis pada operasi dan bisnis.&lt;/p&gt;
+
+&lt;p&gt;· Waktu selama sehari atau seminggu ketika akan ada permintaan yang tinggi pada saat basis data dibuat.&lt;/p&gt;
+
+&lt;p&gt;Memilih file organisasi
+Bertujuan untuk menyimpan data secara tepat ke tempat penyimpanan data. Ada beberapa pilihan struktur penyimpanan (Silberschatz,2002,p422), yaitu :&lt;/p&gt;
+
+&lt;p&gt;Ø Heap&lt;/p&gt;
+
+&lt;p&gt;Ø Hash&lt;/p&gt;
+
+&lt;p&gt;Ø Sekuensial berindeks&lt;/p&gt;
+
+&lt;p&gt;Ø Clusters&lt;/p&gt;
+
+&lt;p&gt;Memilih indeks
+Bertujuan untuk meningkatkan performa dalam suatu sistem basis data. Salah satu pendekatan untuk memilih organisasi file yang cocok untuk relasi adalah untuk menyimpan tuples yang tidak disimpan dan dibuat sebanyak secondary indexes sebagaimana diperlukan. Oleh karena itu, atribut yang digunakan adalah:&lt;/p&gt;
+
+&lt;p&gt;· Atribut yang sering digunakan untuk join operations untuk membuat lebih efisien.&lt;/p&gt;
+
+&lt;p&gt;· Atribut yang sering dipesan untuk mengakses tuples pada suatu relasi didalam urutan yang menunjukkan atribut.&lt;/p&gt;
+
+&lt;p&gt;Memperkirakan kebutuhan ruang penyimpanan
+Bertujuan untuk memperkirakan jumlah ruang penyimpanan yang akan diperlukan dalam basis data. Perkiraannya didasari pada ukuran setiap tabel dalam suatu relasi. Contohnya dalam lima tahun mendatang berapa kapasitas hard disk yang dibutuhkan untuk menampung data.&lt;/p&gt;
+
+&lt;p&gt;Langkah keenam : Merancang pandangan pengguna. Bertujuan untuk merancang pandangan pengguna yang telah diidentifikasi selama mengumpulkan kebutuhan dan menganalisis langkah dari relasional Database Application Lifecycle. Contohnya pada branch terdiri dari direktur dan manajer pandangan.&lt;/p&gt;
+
+&lt;p&gt;Langkah ketujuh : Merancang keamanan. Dalam sebuah sistem basis data, keamanan adalah elemen yang sangat penting mengingat isi dari basis data berupa informasi yang sangat penting. menurut Silberschatz (2002,p239) ukuran keamanan yang dapat diambil untuk melindungi basis data antara lain dari segi :&lt;/p&gt;
+
+&lt;p&gt;· Sistem basis data : ada beberapa pengguna berwenang yang dizinkan untuk mengakses bagian basis data tertentu dan ada para pengguna yang lain hanya diizinkan untuk membaca data yang diinginkannya, tetapi tidak punya hak untuk mengubahnya. Kewajiban dari sistem basis data ini adalah menjaga batasan seperti di atas tetap terjaga.&lt;/p&gt;
+
+&lt;p&gt;· Sistem operasi : tidak peduli betapa aman sistem basis datanya, apabila terjadi kelemahan dalam sistem operasi. Hal ini sama artinya dengan adanya akses yang tidak diinginkan dalam basis data. Jadi tingkat keamanan perangkat lunak dalam sistem operasi sangatlah penting seperti halnya keamanan yang dilakukan secara fisik.&lt;/p&gt;
+
+&lt;p&gt;· Jaringan : seluruh sistem basis data memperbolehkan untuk mengakses lewat terminal atau jaringan, keamanan software-level dalam software jaringan sangat penting sebagai keamanan fisik, keduanya dibutuhkan dalam internet dan jaringan pribadi.&lt;/p&gt;
+
+&lt;p&gt;· Fisik : situs yang mengandung sistem komputer harus secara fisik aman dari entri secara diam-diam dan bahaya oleh para penyelundup.&lt;/p&gt;
+
+&lt;p&gt;· Manusia : otorisasi pada pengguna harus dilakukan secara hati-hati untuk mengurangi adanya kejadian dimana pengguna yang berwenang memberikan akses kepada orang lain dengan imbalan suap atau lainnya.&lt;/p&gt;
+
+&lt;p&gt;Langkah kedelapan : Mempertimbangkan pengenalan dan redundansi kontrol. Pada langkah physical database design ini mempertimbangkan denormalisasi skema relational untuk meningkatkan performa. Hasil dari normalisasi adalah perancangan basis data logikal secara structural, konsisten, dan menekan jumlah redudansi. Faktor yang perlu dipertimbangkan adalah :&lt;/p&gt;
+
+&lt;p&gt;· Denormalisasi membuat implementasi lebih kompleks&lt;/p&gt;
+
+&lt;p&gt;· Denormalisasi selalu mengorbankan fleksibilitas&lt;/p&gt;
+
+&lt;p&gt;· Denormalisasi akan membuat cepat dalam retrieve data tetapi lambat dalam update.&lt;/p&gt;
+
+&lt;p&gt;Ukuran performa dari suatu perancangan basis data dapat dilihat dari sudut pandang tertentu yaitu melalui pendekatan efisiensi data (Normalisasi) atau pendekatan efisiensi proses (Denormalisasi). Efisiensi data dimaksudkan untuk meminimalkan kapasitas disk, dan efisiensi proses dimaksudkan untuk mempercepat proses saat retrieve data dari basis data.&lt;/p&gt;
+
+&lt;p&gt;Langkah kesembilan : Memonitor dan memasang sistem operasi. Bertujuan untuk memonitor sistem operasi, meningkatkan performa dan menentukan perancangan sistem yang tepat atau menggambarkan perubahan kebutuhan.&lt;/p&gt;</content><author><name></name></author><summary type="html">Apa itu Physical model</summary></entry><entry><title type="html">BASIS-DATA-P1 POST 3 | Apa itu Conseptual DB?</title><link href="http://localhost:4000/BS-T1-P3/" rel="alternate" type="text/html" title="BASIS-DATA-P1 POST 3 | Apa itu Conseptual DB?" /><published>2018-02-24T00:00:00+07:00</published><updated>2018-02-24T00:00:00+07:00</updated><id>http://localhost:4000/BS-T1-P3</id><content type="html" xml:base="http://localhost:4000/BS-T1-P3/">&lt;p&gt;&lt;strong&gt;Apa itu Conseptual DB?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Conceptual database design adalah proses membangun suatu model berdasarkan informasi yang digunakan oleh perusahaan atau organisasi, tanpa pertimbangan perencanaan fisik (Connolly,2002,p419).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://image.slidesharecdn.com/advanceddatamodelingwithapachecassandra-150303140036-conversion-gate01/95/advanced-data-modeling-with-apache-cassandra-6-638.jpg?cb=1425391569&quot; alt=&quot;Alt text&quot; title=&quot;Step 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;a. Entitiy types&lt;/p&gt;
+
+&lt;p&gt;Menurut Connoly (2002,p331), entity types adalah kumpulan objek yang mempunyai karakteristik yang sama, dimana telah diidentifikasi oleh perusahaan.Menurut Silberschatz (2002,p27), entity types adalah kumpulan dari entity yang memiliki tipe dan karakteristik yang sama.&lt;/p&gt;
+
+&lt;p&gt;Entity dapat dibedakan menjadi dua yaitu :&lt;/p&gt;
+
+&lt;p&gt;· Strong Entity : entity yang keberadaannya tidak tergantung kepada entity lain (Fathansyah,1999,p94).&lt;/p&gt;
+
+&lt;p&gt;· Weak entity : entity yang keberadaannya tergantung dari entity lain (Fathansyah,1999,p94).&lt;/p&gt;
+
+&lt;p&gt;Contohnya adalah entity mahasiswa dan orang tua. Dimana mahasiswa merupakan strong entity dan orang tua merupakan weak entity karena keberadaan entity orang tua tergantung dari entity mahasiswa.&lt;/p&gt;
+
+&lt;p&gt;b. Relationship types&lt;/p&gt;
+
+&lt;p&gt;Menurut Connolly (2002,p334) definisi dari relationship types adalah kumpulan antar entity yang saling berhubungan dan mempunyai arti.&lt;/p&gt;
+
+&lt;p&gt;c. Attribute dan attribute domains&lt;/p&gt;
+
+&lt;p&gt;Attribute adalah karakteristik dari suatu entity atau relasi (Connolly,2002,p338). Setiap attribute diperbolehkan untuk memiliki nilai yang disebut dengan domain. Attribute domains adalah kumpulan dari nilai-nilai yang diperbolehkan untuk satu atau lebih attribute.&lt;/p&gt;
+
+&lt;p&gt;Ada beberapa jenis dalam attribute :&lt;/p&gt;
+
+&lt;p&gt;· Simple attribute dan Composite attribute&lt;/p&gt;
+
+&lt;p&gt;Simple attribute adalah attribute yang terdiri dari komponen tunggal dimana attribute tersebut tidak dapat dipisahkan lagi, sedangkan composite attribute adalah attribute yang masih dapat dipisahkan menjadi beberapa bagian. Contoh dari simple attribute adalah nama_barang sedangkan untuk composite attribute adalah alamat pada entity mahasiswa, karena dalam alamat bisa dibagi menjadi bagian entiti jalan, entiti kode_pos dan entiti kota (Silberchatz,2002,p29).&lt;/p&gt;
+
+&lt;p&gt;· Single-valued attribute dan Multi-valued attribute&lt;/p&gt;
+
+&lt;p&gt;Single-valued attribute adalah attribute yang memiliki satu nilai pada setiap entity, sedangkan multi-valued attribute adalah attribute yang mempunyai beberapa nilai pada setiap entity (Connolly,2002,p340). Contoh dari single-valued attribute adalah Nim, nama_Mhs, tanggal_lahir, dan lain-lain. Sedangkan untuk multi-valued attribute contohnya adalah jam_pelajaran, hobi, dan lain-lain.&lt;/p&gt;
+
+&lt;p&gt;· Derived attribute&lt;/p&gt;
+
+&lt;p&gt;Derived attribute merupakan attribute yang nilai-nilainya diperoleh dari hasil perhitungan atau dapat diturunkan dari attribute lain yang berhubungan (Silberschatz,2002,p30). Contohnya adalah attribute umur pada entity mahasiswa dimana attribute tersebut diturunkan dari attribute tanggal_lahir dan tanggal_hari_ini.&lt;/p&gt;
+
+&lt;p&gt;d. Primary key dan alternate keys&lt;/p&gt;
+
+&lt;p&gt;Primary key adalah key yang telah menjadi candidate key yang dipilih secara unik untuk mengidentifikasi suatu entity types. Candidate key adalah kumpulan attribute minimal yang unik untuk mengidentifikasikan suatu entity types (Connolly,2002,p340).&lt;/p&gt;
+
+&lt;p&gt;Alternate key adalah key yang digunakan sebagai alternatif dari key yang telah didefinisikan (Fathansyah,1999,p104).&lt;/p&gt;
+
+&lt;p&gt;e. Integrity constraints&lt;/p&gt;
+
+&lt;p&gt;Integrity constraints adalah batasan-batasan yang menentukan dalam rangka melindungi basis data untuk menghindari terjadinya inconsistent. (Connolly,2002,p457).&lt;/p&gt;
+
+&lt;p&gt;Pada tahap conceptual model, langkah-langkah yang dilakukan adalah sebagai berikut :&lt;/p&gt;
+
+&lt;p&gt;a. Mengidentifikasi entity types&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk menentukan entity types utama yang dibutuhkan. Menentukan entity dapat dilakukan dengan memeriksa user’s requirement specification. Setelah terdefinisi, entity diberikan nama yang tepat dan jelas seperti mahasiswa, dosen, mata_kuliah.&lt;/p&gt;
+
+&lt;p&gt;b. Mengidentifikasikan relationship types&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk mengidentifikasi suatu relationship yang penting yang ada antar entity yang telah diidentifikasi. Nama dari suatu relationship menggunakan kata kerja seperti mempelajari, memiliki mempunyai dan lain-lain.&lt;/p&gt;
+
+&lt;p&gt;c. Mengidentifikasi dan menghubungkan attribute dengan entity atau relationship types&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk menghubungkan attribute dengan entity atau relationship yang tepat. Attribute yang dimiliki setiap entity atau relationship memiliki identitas atau karakteristik yang sesuai dengan memperhatikan attribute berikut : simple/composite attribute, single/multi-valued attribute dan derived attribute.&lt;/p&gt;
+
+&lt;p&gt;d. Menentukan attribute domain&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk menentukan attribute domain pada conceptual data model. Contohnya yaitu menentukan nilai attribute jenis_kelamin pada entity mahasiswa dangan ‘M’ atau ‘F’ atau nilai attribute sks pada entity mata_kuliah dengan ‘1’, ’2’, ‘3’ dan ‘4’.&lt;/p&gt;
+
+&lt;p&gt;e. Menentukan candidate key dan primary key attributes&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk mengidentifikasi candidate key pada setiap entity dan memilih primary key jika ada lebih dari satu candidate key. Pemilihan primary key didasari pada panjang dari attribute dan keunikan key di masa datang.&lt;/p&gt;
+
+&lt;p&gt;f. Mempertimbangkan penggunaan enhance modeling concepts (pilihan)&lt;/p&gt;
+
+&lt;p&gt;Pada langkah ini bertujuan untuk menentukan specialization, generalization, aggregation, composition. Dimana masing-masing pendekatan dapat dilakukan sesuai dengan kebutuhan yang ada.&lt;/p&gt;
+
+&lt;p&gt;Specialization dan generalization adalah proses dalam mengelompokan beberapa entity dan menghasilkan entity yang baru. Beda dari keduanya adalah cara prosesnya, dimana spesialisasi menggunakan proses top-down dan generalisasi menggunakan proses bottom-up.&lt;/p&gt;
+
+&lt;p&gt;Aggregation menggambarkan sebuah entity types dengan sebuah relationship types dimana suatu relasi hanya akan ada jika telah ada relationship lainnya.&lt;/p&gt;
+
+&lt;p&gt;g. Mengecek redundansi&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk memeriksa conceptual model untuk menghindari dari adanya informasi yang redundan. Yang dilakukan pada langkah ini adalah :&lt;/p&gt;
+
+&lt;p&gt;· Memeriksa kembali one-to-one relationship.&lt;/p&gt;
+
+&lt;p&gt;Setelah entity diidentifikasikan maka kemungkinan ada dua entity yang mewakili satu objek. Untuk itu dua entity tersebut harus di-merger bersama. Dan jika primary key-nya berbeda maka harus dipilih salah satu dan lainnya dijadikan alternate key.&lt;/p&gt;
+
+&lt;p&gt;· Menghilangkan relasi yang redundansi.&lt;/p&gt;
+
+&lt;p&gt;Untuk menekan jumlah model data, maka relationship data yang redundan harus dihilangkan.&lt;/p&gt;
+
+&lt;p&gt;h. Memvalidasi conceptual model dengan transaksi.&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk menjamin bahwa conceptual data model mendukung kebutuhan transaksi. Dengan menggunakan model yang telah divalidasi tersebut, dapat digunakan untuk melaksanakan operasi secara manual. Ada dua pendekatan yang mungkin untuk mejamin bahwa local conceptual data model mendukung kebutuhan transaksi yaitu :&lt;/p&gt;
+
+&lt;p&gt;· Mendeskripsikan transaksi&lt;/p&gt;
+
+&lt;p&gt;Memeriksa seluruh informasi (entities, relationship, dan attribute) yang diperlukan pada setiap transaksi yang disediakan oleh model dengan mendokumentasikan penggambaran dari tiap kebutuhan transaksi.&lt;/p&gt;
+
+&lt;p&gt;· Mengunakan transaksi pathways&lt;/p&gt;
+
+&lt;p&gt;Pendekatan kedua, untuk memvalidasi data model dengan keperluan transaksi yang melibatkan diagram yang mewakili pathways diambil dari tiap transaksi secara langsung yang terdapat pada E-R diagram menggambarkan komponen-komponen dari entity dan relasi yang masing-masing dilengkapi dengan attribute-attribute yang merepresentasikan seluruh fakta dari real-world yang kita tinjau (Fathansyah,1999,p79). Sedangkan menurut Silberschartz (2002,p42), E-R diagram dapat menyatakan keseluruhan struktur logical dari basis data dengan menggunakan bagan.&lt;/p&gt;
+
+&lt;p&gt;i. Melihat kembali conceptual data model dengan pengguna.&lt;/p&gt;
+
+&lt;p&gt;Bertujuan untuk melihat kembali conceptual model dan memastikan bahwa data model tersebut sudah benar.&lt;/p&gt;</content><author><name></name></author><summary type="html">Apa itu Conseptual DB?</summary></entry><entry><title type="html">BASIS-DATA-P1 POST 2 | Apa itu Basis Data?</title><link href="http://localhost:4000/BS-T1-P2/" rel="alternate" type="text/html" title="BASIS-DATA-P1 POST 2 | Apa itu Basis Data?" /><published>2018-02-24T00:00:00+07:00</published><updated>2018-02-24T00:00:00+07:00</updated><id>http://localhost:4000/BS-T1-P2</id><content type="html" xml:base="http://localhost:4000/BS-T1-P2/">&lt;p&gt;&lt;strong&gt;Apa itu Basis Data?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Pangkalan data atau basis data (bahasa Inggris: database) adalah kumpulan informasi yang disimpan di dalam komputer secara sistematik sehingga dapat diperiksa menggunakan suatu program komputer untuk memperoleh informasi dari basis data tersebut. Perangkat lunak yang digunakan untuk mengelola dan memanggil kueri (query) basis data disebut sistem manajemen basis data (database management system, DBMS). Sistem basis data dipelajari dalam ilmu informasi.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Istilah “basis data” berawal dari ilmu komputer. Meskipun kemudian artinya semakin luas, memasukkan hal-hal di luar bidang elektronika, artikel ini mengenai basis data komputer. Catatan yang mirip dengan basis data sebenarnya sudah ada sebelum revolusi industri yaitu dalam bentuk buku besar, kuitansi dan kumpulan data yang berhubungan dengan bisnis.
+&lt;br /&gt;
+Konsep dasar dari basis data adalah kumpulan dari catatan-catatan, atau potongan dari pengetahuan. Sebuah basis data memiliki penjelasan terstruktur dari jenis fakta yang tersimpan di dalamnya: penjelasan ini disebut skema. Skema menggambarkan objek yang diwakili suatu basis data, dan hubungan di antara objek tersebut. Ada banyak cara untuk mengorganisasi skema, atau memodelkan struktur basis data: ini dikenal sebagai model basis data atau model data. Model yang umum digunakan sekarang adalah model relasional, yang menurut istilah layman mewakili semua informasi dalam bentuk tabel-tabel yang saling berhubungan di mana setiap tabel terdiri dari baris dan kolom (definisi yang sebenarnya menggunakan terminologi matematika). Dalam model ini, hubungan antar tabel diwakili denga menggunakan nilai yang sama antar tabel. Model yang lain seperti model hierarkis dan model jaringan menggunakan cara yang lebih eksplisit untuk mewakili hubungan antar tabel.
+&lt;br /&gt;
+Istilah basis data mengacu pada koleksi dari data-data yang saling berhubungan, dan perangkat lunaknya seharusnya mengacu sebagai sistem manajemen basis data (database management system/DBMS). Jika konteksnya sudah jelas, banyak administrator dan programer menggunakan istilah basis data untuk kedua arti tersebut.&lt;/p&gt;
+
+&lt;p&gt;sumber : &lt;a href=&quot;https://id.wikipedia.org/wiki/Bahasa_pemrograman&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Apa itu Basis Data?</summary></entry><entry><title type="html">BASIS-DATA-P1 POST 1 | Yang saya harapkan dari MK BASIS DATA</title><link href="http://localhost:4000/BS-T1-P1/" rel="alternate" type="text/html" title="BASIS-DATA-P1 POST 1 | Yang saya harapkan dari MK BASIS DATA" /><published>2018-02-24T00:00:00+07:00</published><updated>2018-02-24T00:00:00+07:00</updated><id>http://localhost:4000/BS-T1-P1</id><content type="html" xml:base="http://localhost:4000/BS-T1-P1/">&lt;p&gt;&lt;strong&gt;Yang saya harapkan dari MK BASIS DATA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Assalamuallaiku Wr Wb,&lt;br /&gt;
+Alhamdulillah sudah masuk di semester 4 jadi sepertinya setengah dari masa kuliah S1 saya hampir terlewati. Oke, untuk kali ini hampir semua mata kuliah sejalur dengan jurusan, lebih tepatnya kita akan di ajak fokus terhadap ilmu/bidang yang kita pilih. &lt;br /&gt;
+Oke, harapan saya terhadap MK ini adalah bisa mempelajari lebih banyak ilmu basis data. Mungkin harapan saya tidak hanya basis data standar yang kita pelajari, karna bila kita lulus nanti bakal banyak teknologi baru bermunculan. Normalnya di perkuliahan/sekolah di ajarkan basis data berentuk sql dengan software pendukung mysql, akan tetapi basis data berbasis SQL lumayan banya seperti Postgresql, MariaDB, Oracle, dan sekarang baru bermunculan teknologi basis data NoSQL. Tidak menggunakan syntax SQL, saya harap ilmu yang di pelajari bisa sesuai dan memiliki nilai jual yang tinggi sesuai kebutuhan teknologi pada masanya, walau di kampus hanya sekedar tahu.&lt;/p&gt;</content><author><name></name></author><summary type="html">Yang saya harapkan dari MK BASIS DATA</summary></entry><entry><title type="html">P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</title><link href="http://localhost:4000/P02-4/" rel="alternate" type="text/html" title="P02 - 4 | Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4000/P02-4</id><content type="html" xml:base="http://localhost:4000/P02-4/">&lt;p&gt;&lt;strong&gt;Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;Menurutu &lt;a href=&quot;https://id.wikipedia.org/wiki/Bahasa_pemrograman&quot;&gt;Wikipedia&lt;/a&gt; Bahasa pemrograman, atau sering diistilahkan juga dengan bahasa komputer atau bahasa pemrograman komputer, adalah instruksi standar untuk memerintah komputer. Bahasa pemrograman ini merupakan suatu himpunan dari aturan sintaks dan semantik yang dipakai untuk mendefinisikan program komputer. Bahasa ini memungkinkan seorang programmer dapat menentukan secara persis data mana yang akan diolah oleh komputer, bagaimana data ini akan disimpan/diteruskan, dan jenis langkah apa secara persis yang akan diambil dalam berbagai situasi.&lt;br /&gt;&lt;br /&gt;
@@ -23,7 +311,7 @@ PHP tersendiri banyak sekali peminatnya untuk pemograman web. Selain itu PHP ban
   &lt;li&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;Ruby&lt;/strong&gt; adalah bahasa pemograman yang di kembangkan developer asal &lt;strong&gt;Jepang&lt;/strong&gt;. Ruby tersendiri adalah bahasa yang keren. Bahasa ini terkenal dengan kecepatan dan ringan saat pemrosesan data. Bahasa ini dipakai oleh &lt;strong&gt;GOJEK&lt;/strong&gt; kalau tidak salah. Bayangkan berapa juta user yang memakai dan di handle oleh bahasa ini. Betapa bagusnya bukan? Dan satu lagi, blog yang saya buat ini di build oleh &lt;strong&gt;Ruby&lt;/strong&gt; dengan framework &lt;strong&gt;jekyll&lt;/strong&gt;.
 &lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</summary></entry><entry><title type="html">P02 - 3 | Apa itu Array dan ada berapa jenis?</title><link href="http://localhost:4081/P02-3/" rel="alternate" type="text/html" title="P02 - 3 | Apa itu Array dan ada berapa jenis?" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-3</id><content type="html" xml:base="http://localhost:4081/P02-3/">&lt;p&gt;&lt;strong&gt;Apa itu Array dan ada berapa jenis?&lt;/strong&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Apa itu Bahasa pemograman dan sebutkan 5 Bahasa pemograman (yang terpopuler atau yang anda kuasai)</summary></entry><entry><title type="html">P02 - 3 | Apa itu Array dan ada berapa jenis?</title><link href="http://localhost:4000/P02-3/" rel="alternate" type="text/html" title="P02 - 3 | Apa itu Array dan ada berapa jenis?" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4000/P02-3</id><content type="html" xml:base="http://localhost:4000/P02-3/">&lt;p&gt;&lt;strong&gt;Apa itu Array dan ada berapa jenis?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;ol&gt;
@@ -49,7 +337,7 @@ X[0][0][0] X[0][0][1] X[0][0][2] X[1][0][0] X[1][0][1] X[1][0][2]
 X[0][1][0] X[0][1][1] X[0][1][2] X[1][1][0] X[1][1][1] X[1][1][2]
 X[0][2][0] X[0][2][1] X[0][2][2] X[1][2][0] X[1][2][1] X[1][2][2]
 X[0][3][0] X[0][3][1] X[0][3][2] X[1][3][0] X[1][3][1] X[1][3][2]&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Apa itu Array dan ada berapa jenis?</summary></entry><entry><title type="html">P02 - 2 | Jenis-Jenis Operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?</title><link href="http://localhost:4081/P02-2/" rel="alternate" type="text/html" title="P02 - 2 | Jenis-Jenis Operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-2</id><content type="html" xml:base="http://localhost:4081/P02-2/">&lt;p&gt;&lt;strong&gt;Jenis-Jenis operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?&lt;/strong&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Apa itu Array dan ada berapa jenis?</summary></entry><entry><title type="html">P02 - 2 | Jenis-Jenis Operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?</title><link href="http://localhost:4000/P02-2/" rel="alternate" type="text/html" title="P02 - 2 | Jenis-Jenis Operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4000/P02-2</id><content type="html" xml:base="http://localhost:4000/P02-2/">&lt;p&gt;&lt;strong&gt;Jenis-Jenis operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;Yang saya ketahui operator apa saja yang di gunakan dalam setiap tipe data adalah :&lt;/p&gt;
@@ -75,7 +363,7 @@ Operator ini membandingkan dua operan dan hasilnya berupa nilai boolean (BENAR a
     &lt;p&gt;Operator logika
 Operator logika adalah operator yang digunakan untuk mengkombinasikan hasil ekspresi yang mengandung operator relasional.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Jenis-Jenis operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?</summary></entry><entry><title type="html">P02 - 1</title><link href="http://localhost:4081/P02-1/" rel="alternate" type="text/html" title="P02 - 1" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4081/P02-1</id><content type="html" xml:base="http://localhost:4081/P02-1/">&lt;p&gt;Tentukan tipe data yang tepat untuk menyimpan data di bawah ini (anda dapat menggunakan “char, float, short, int, long, bool,string“)&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Jenis-Jenis operator dan oprator apasaja yang dapat digunakan pada setiap tipe data ?</summary></entry><entry><title type="html">P02 - 1</title><link href="http://localhost:4000/P02-1/" rel="alternate" type="text/html" title="P02 - 1" /><published>2017-10-03T00:00:00+07:00</published><updated>2017-10-03T00:00:00+07:00</updated><id>http://localhost:4000/P02-1</id><content type="html" xml:base="http://localhost:4000/P02-1/">&lt;p&gt;Tentukan tipe data yang tepat untuk menyimpan data di bawah ini (anda dapat menggunakan “char, float, short, int, long, bool,string“)&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Huruf (&quot;A&quot;); --&amp;gt; char&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Pesan Singkat (&quot;Saya Sedang Rapat&quot;); --&amp;gt; string&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
@@ -85,7 +373,7 @@ Operator logika adalah operator yang digunakan untuk mengkombinasikan hasil eksp
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Luas Persegi(&quot;4&quot;); --&amp;gt; short&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Luas Lingkaran (&quot;7.5&quot;); --&amp;gt; float&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Jenis Kelamin (&quot;Laki-laki&quot;); --&amp;gt; bool/string/char sama saja tergantung kebutuhan karna sama-sama 1bit memory&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;Usia (&quot;5&quot;) --&amp;gt; short&lt;/code&gt;;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tentukan tipe data yang tepat untuk menyimpan data di bawah ini (anda dapat menggunakan “char, float, short, int, long, bool,string“)</summary></entry><entry><title type="html">Struktur Data</title><link href="http://localhost:4081/stuktur-data/" rel="alternate" type="text/html" title="Struktur Data" /><published>2017-09-25T00:00:00+07:00</published><updated>2017-09-25T00:00:00+07:00</updated><id>http://localhost:4081/stuktur-data</id><content type="html" xml:base="http://localhost:4081/stuktur-data/">&lt;p&gt;Setelah yang saya baca tentang Struktur Data melalui &lt;a href=&quot;https://id.wikipedia.org/wiki/Struktur_data&quot;&gt;referensi Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Usia (&quot;5&quot;) --&amp;gt; short&lt;/code&gt;;&lt;/p&gt;</content><author><name></name></author><summary type="html">Tentukan tipe data yang tepat untuk menyimpan data di bawah ini (anda dapat menggunakan “char, float, short, int, long, bool,string“)</summary></entry><entry><title type="html">Struktur Data</title><link href="http://localhost:4000/stuktur-data/" rel="alternate" type="text/html" title="Struktur Data" /><published>2017-09-25T00:00:00+07:00</published><updated>2017-09-25T00:00:00+07:00</updated><id>http://localhost:4000/stuktur-data</id><content type="html" xml:base="http://localhost:4000/stuktur-data/">&lt;p&gt;Setelah yang saya baca tentang Struktur Data melalui &lt;a href=&quot;https://id.wikipedia.org/wiki/Struktur_data&quot;&gt;referensi Wikipedia&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;struktur-data&quot;&gt;Struktur Data&lt;/h3&gt;
 &lt;p&gt;Adalah cara penyimpanan, penyusunan, dan pengaturan data di dalam media penyimpanan sehingga data tersebut dapat digunakan secara effisien.&lt;/p&gt;
@@ -113,110 +401,4 @@ Kita ulas..&lt;/p&gt;
 
 &lt;p&gt;Nah data data disanalah yang nanti akan kita olah ke komputer agar lebih effisien saat komputer membaca dan tidak boros memori atau istilah manusiawinya tersimpan pada tempatnya.&lt;/p&gt;
 
-&lt;p&gt;Mungkin cukup sekian ulasan apa itu struktur data yang telah saya baca dari referensi tersebut.&lt;/p&gt;</content><author><name></name></author><summary type="html">Setelah yang saya baca tentang Struktur Data melalui referensi Wikipedia</summary></entry><entry><title type="html">Apa itu Database dan RDMS?</title><link href="http://localhost:4081/apa-itu-database-dan-rdms/" rel="alternate" type="text/html" title="Apa itu Database dan RDMS?" /><published>2017-09-25T00:00:00+07:00</published><updated>2017-09-25T00:00:00+07:00</updated><id>http://localhost:4081/apa-itu-database-dan-rdms</id><content type="html" xml:base="http://localhost:4081/apa-itu-database-dan-rdms/">&lt;p&gt;Setelah yang saya baca tentang Struktur Data melalui &lt;a href=&quot;https://id.wikipedia.org/wiki/Pangkalan_data&quot;&gt;referensi Wikipedia&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;database&quot;&gt;Database&lt;/h3&gt;
-&lt;p&gt;Database atau basis data adalah kumpulan informasi/data yang di simpan didalam komputer secara sistematik sehingga dapat diperiksa menggunakan program komputer untuk memperoleh informasi dari basis data tersebut.&lt;/p&gt;
-
-&lt;p&gt;Jadi database adalah untuk pengimpanan data saat kita membuat program.&lt;/p&gt;
-
-&lt;h3 id=&quot;rdbms&quot;&gt;RDBMS&lt;/h3&gt;
-&lt;p&gt;RDMS merupakan sekumpula data yang disimpan sedimikian rupa sehingga dapat diambil untuk pengguna dan data tersebut saling berhubungan.RDMS merupakan sekumpulan aplikasi yang kompleks sehingga dapat digunakan untuk memanipulasi database.&lt;/p&gt;
-
-&lt;p&gt;Ada 3 prinsip dari RDMS antara lain :&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data Definition
-Mendefinisikan jenis data yang akan dibuat(dapat berupa angka atau huruf), cara validasi data,relasi data dll.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data Manipulation
-Memanipulasi data dengan melakukan beberapa pengerjaan seperti melakukan query (select,insert,delete dsb.),menyaring data dsb.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data Control
-Mengontrol data dengan memberikan batasab-batasan atau permission pada data tersebut.Seingga dapat diatur siapa yang boleh dan tidak melihat data,memanipulasi data,bagaimana data tersebut digunakan oleh banyak user dsb.
-Semua operasi I/O harus menggunakan DBMS, sehingga setiap user yang akan mengakses database, DBMS menyediakan penghubung dengan database.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Setelah yang saya baca tentang Struktur Data melalui referensi Wikipedia</summary></entry><entry><title type="html">Tentang Saya</title><link href="http://localhost:4081/about-me/" rel="alternate" type="text/html" title="Tentang Saya" /><published>2017-09-25T00:00:00+07:00</published><updated>2017-09-25T00:00:00+07:00</updated><id>http://localhost:4081/about-me</id><content type="html" xml:base="http://localhost:4081/about-me/">&lt;p&gt;Mahasiswa Program Studi Teknik Informatika di &lt;a href=&quot;http://www.ubpkarawang.ac.id/&quot;&gt;Universitas Buana Perjuangan&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;sekilas-tentang-saya&quot;&gt;Sekilas tentang saya&lt;/h3&gt;
-&lt;p&gt;Nama saya Yazied Dhiya Uddien Abdurrahman atau biasa di panggil Yazid. Alasan kenapa saya masuk Teknik Informatika karena saya suka sekali dengan teknologi IPTEK apalagi di dunia Software Development. Menurut saya ini keren dan menantang, disamping itu dunia ini penuh dengan ke unik-an, bisa jadi tidak semua orang menyukai ini dan dalam teknisnya pun macam-macam rupanya dan sangat luas untuk di pelajari. Selain sangat menyukai dunia Software Development saya pun saya menyukai olahraga, lebih tepatnya di dunia Sepak Bola. Bermain hingga menonton saya sangat menyukainya.&lt;/p&gt;
-
-&lt;p&gt;Pengalaman saya di bidang IT lebih banya di Software Development, hampir lebih 3 tahun dari saya duduk di bangku sekolah SMK saya sudah menyukainya. Ya ini sesuai dengan alasan saya mengapa menyukainya sampai saat ini yaitu banyak keunikan dan tantangan serta sangat luas untuk di pelajari. Dalam Software Development bahasa yang saya sangat sukai adalah java, apalagi java untuk membuat aplikasi Android hampir 2 tahun belakangan ini saya menekuninya dalam segi pekerjaan, riset atau hanya sekedar update teknologi terbaru di dalamnya.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mahasiswa Program Studi Teknik Informatika di Universitas Buana Perjuangan</summary></entry><entry><title type="html">Install Netbeans</title><link href="http://localhost:4081/install-netbeans/" rel="alternate" type="text/html" title="Install Netbeans" /><published>2017-09-22T00:00:00+07:00</published><updated>2017-09-22T00:00:00+07:00</updated><id>http://localhost:4081/install-netbeans</id><content type="html" xml:base="http://localhost:4081/install-netbeans/">&lt;p&gt;Bahan yang di perlukan :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;JDK ( Java Development Kit )&lt;/li&gt;
-  &lt;li&gt;Netbeans &lt;a href=&quot;https://netbeans.org/downloads/start.html?platform=windows&amp;amp;lang=en&amp;amp;option=all&quot;&gt;download&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;JDK adalah singkatan dari Java Development Kit yaitu software yang digunakan untuk membangun aplikasi-aplikasi java. Tanpa JDK kita tidak akan bisa membangun atau membuat berbagai macam aplikasi java.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Download JDK ( Java Development Kit ) at &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;link&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step1.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 1&quot; /&gt;
-&lt;b&gt;Accept License Agreement, and download for your Windows version ( 32/64 bit ) x86 means 32 bit&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/b&gt;
-Untuk instalasi JDK, lihat tutorial di link berikut : &lt;br /&gt;
-&lt;a href=&quot;http://himatifubp.or.id/cara-mengisntall-java-development-kit-jdk-pada-windows/&quot;&gt;http://himatifubp.or.id/cara-mengisntall-java-development-kit-jdk-pada-windows/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;instalasi-netbeans&quot;&gt;Instalasi Netbeans&lt;/h3&gt;
-&lt;p&gt;Download at &lt;a href=&quot;https://netbeans.org/downloads/start.html?platform=windows&amp;amp;lang=en&amp;amp;option=all&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Buka file instalasi netbeans yang sudah di download tadi&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step2.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 2&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Klik Next&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step3.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 3&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Accept License Agreement dan Klik NEXT&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step4.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 4&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Pemilihan folder instalasi&lt;br /&gt;&lt;br /&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Kolom pertama adalah dimana kita mau menyimpan folder instalasi Netbeans kita ( Lebih baik tidak di ubah )&lt;/li&gt;
-      &lt;li&gt;Kolom kedua adalah dimana tempat folder instalasi JDK yang kita install tadi&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-      &lt;li&gt;Bila sudah OK klik NEXT
-&lt;img src=&quot;/images/step5.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 5&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Pemilihan folder instalasi glassfish&lt;br /&gt;&lt;br /&gt;
-Glashfish adalah webserver yang bisa di gunakan oleh java, namun sepertinya kita belum terlalu menggunakannya. Klik NEXT saja.&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step6.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 6&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Summary dari step step sebelumnya.&lt;br /&gt;&lt;br /&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Centang check for updates bila ingin mendapatkan pemberitahuan tentang pembaharuan software Netbeans.&lt;/li&gt;
-      &lt;li&gt;Klik NEXT&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step7.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 7&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Instalasi sedang berjalan.&lt;br /&gt;&lt;br /&gt;
-Tunggu sampai selesai…&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step8.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 8&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Instalasi berhasil.&lt;br /&gt;&lt;br /&gt;
-Klik finish&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step9.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 9&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Buka Netbeans.&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;/images/step10.png?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 10&quot; /&gt;
-&lt;img src=&quot;/images/step11.PNG?raw=true&quot; alt=&quot;Alt text&quot; title=&quot;Step 11&quot; /&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Bahan yang di perlukan : JDK ( Java Development Kit ) Netbeans download</summary></entry><entry><title type="html">NONE</title><link href="http://localhost:4081/when-academy-prevet-my-education/" rel="alternate" type="text/html" title="NONE" /><published>2017-05-26T00:00:00+07:00</published><updated>2017-05-26T00:00:00+07:00</updated><id>http://localhost:4081/when-academy-prevet-my-education</id><content type="html" xml:base="http://localhost:4081/when-academy-prevet-my-education/">&lt;p&gt;NONE&lt;/p&gt;</content><author><name></name></author><summary type="html">NONE</summary></entry><entry><title type="html">Yang saya dapatkan dalam seminar Tanda Tangan Digital | KOMINFO</title><link href="http://localhost:4081/yang-saya-dapatkan-di-seminar-tanda-tangan-digital/" rel="alternate" type="text/html" title="Yang saya dapatkan dalam seminar Tanda Tangan Digital | KOMINFO" /><published>2016-12-14T00:00:00+07:00</published><updated>2016-12-14T00:00:00+07:00</updated><id>http://localhost:4081/yang-saya-dapatkan-di-seminar-tanda-tangan-digital</id><content type="html" xml:base="http://localhost:4081/yang-saya-dapatkan-di-seminar-tanda-tangan-digital/">&lt;h2 id=&quot;1-menambah-wawasan-ekonomi-digital&quot;&gt;1. Menambah wawasan ekonomi digital&lt;/h2&gt;
-&lt;p&gt;Dalam seminar Tanda Tangan Digital banyak sekali wawasan yang saya dapat, yang pertama yaitu tentang marketing di dalam dunia digital. Di dalam dunia digital ternyata bukan hanya sekedar ngoding dan membuat aplikasi, ternyata dari kita membuat aplikasi saja bisa membuat ekonomi negara naik. Contohnya amerika dengan facebook, google dan lain lain, amerika bisa di bilang penguasa bisnis digital di dunia. Dan dalam seminar pun di sebutkan kata kata yang bikin kaget, yaitu Indonesia menjadi target utama bisnis digital oleh Amerika dan China. Mungkin karena Indonesia adalah salah satu negara dengan penduduk terbanyak, dan produk digital yang meraka buat akan laku di pasar negeri ini. Sebenarnya kita harus bisa menjadi TUAN RUMAH di negeri sendiri dengan membuat produk produk digital dan digunakan oleh semua masyarakat atau dalam arti lain tidak kalah saing dengna produk digital / aplikasi buatan luar. Dan di bahas juga masalah ekonomi digital di Indoensia bukan hanya satu lembaga saja yaitu KOMINFO atau pihak pemerintah yang bersangkutan dengan teknologi digital. Akan tetapi banyak lembaga juga yang harus berkolaborasi untuk memajukan Ekonomi Digital ( E-Commerce ) di Indonesia, seperti Kementerian Keuangan, Perdangan, Koperasi, BUMN, Organisasi Digital dan lain lain untuk memajukan Ekonomi Digital di Indonesia.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-menambah-wawasan-teknis-tentang-keamanan-dalam-dunia-digital&quot;&gt;2. Menambah wawasan teknis tentang keamanan dalam dunia digital&lt;/h2&gt;
-&lt;p&gt;Dalam seminar lebih banyak di bahas tentang secutity encryption dan decryption. Mulai dari masalah keamanan dalam dunia digital adalah kurang pedulinya pembuatan aplikasi di sisi keamanan. Disana disebutkan banyak sekali website sekolah dan pemerintahan yang mudah sekali di retas. Kenapa? Karena dalam tahap pembuatan aplikasi hanya sampai UAT ( User Acceptance Test ) atau pengujian aplikasi sampai tahap aplikasi itu dapat di terima dan di pakai oleh pengguna. Ibaratnya seperti membuat website kampus yang penting dalam website itu bisa update foto, pengumuman, artikel dan dapat nyaman di pakai pengguna dan setelah di di publish tanpa memikirkan keamanannya. Disini kurang pedulinya terhadap keamanan. Tapi tidak semua sampai di tahap UAT saja, banyak juga yang sampai SAT ( Security Acceptance Test ). Dalam SAT biasanya hanya menambahkan SSL ( Secure Socket Layer ) atau mengamankan / mengenkripsi semua bentuk data atau transaksi dalam web tersebut. Sampai tahap ini pun belum bisa di bilang aman. Ada lagi yang namanya Penetration Testing ( pentest ) adalah testing dimana seseorang melakukan serangan untuk menemukan kelemahan yang ada dalam website / server tersebut. Sudah aman? Belum.. kata seorang pembicara yang membahas security digital. Ada lagi yang namanya Hacker Acceptance Test. Jadi solusi untuk keamanan digital dalam seminar tersebut adalah Security Awareness  ( Kesadaran akan keamanan ) dan Digital Signature. Apa it Digital Signature? Kita bahasa di bawah ini.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-digital-signature--tanda-tangan-digital-&quot;&gt;3. Digital Signature ( Tanda Tangan Digital )&lt;/h2&gt;
-&lt;p&gt;Apasih Tanda Tangan Digital? Apa tanda tangan yang biasa kita lakukan di kertas terus di scan dan di masukan di dalam dokumen digital? Awalnya saya berfikir seperti itu.. Oke kita ke pembahasan utama. Jadi Tanda Tangan Digital adalah suatu Identitas Diri kita di dalam dunia digital. Awalnya saya berpikir, kan udah ada sosial media? Itukan bisa jadi identitas diri kita. Tapi ternyata Tanda Tangan Digital disini adalah Identitas Diri seperti KTP/E-KTP yang di buat oleh lembaga pemerintahan yaitu KOMINFO dan memiliki kekuatan HUKUM.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Penasaran? Dalam seminar saya di suruh register Tanda Tangan Digital disni &lt;a href=&quot;https://raKOMINFO.rootca.or.id/register&quot; target=&quot;blank&quot;&gt;KLIK&lt;/a&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Persyaratannya adalah NIK dan email. Setelah saya daftar, saya harus konfirmasi secara offline di tempat untuk mendapatkan Sertifikat Tanda Tangan Digital yang di kirimkan melalui email. Kok sertifikat yang di dapat? Ya, jadi untuk membuat Tanda Tangan Digital adalah sertifikat yang di buat oleh KOMINFO berdasarkan NIK kita. File sertifikatnya berbentuk .p12, mungkin agak asing di lihat ya.. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sebenarnya sertifikat ini adalah sertifikat umum yang di gunakan di dalam security cyber. Coba deh buka di browser ketik &lt;a href=&quot;http://google.com&quot; target=&quot;blank&quot;&gt;mbah google&lt;/a&gt; di pojok kiri atas ada gambar gembok / kunci, dan URL google.com berubah menjadi https://www.google.co.id &lt;b&gt;&amp;lt;– HTTPS, HTTPS&lt;/b&gt; adalah protokol komunikasi / atau jalur komunikasi dalam web yang secure / aman. Bila di sadap, transaksi web menggunakan https akan terlihat huruf acak atau ter ENKRIPSI oleh sertifikatnya. Dan hanya bisa di baca menggunakan key sertifikat tersebut. Di dalam sertifikat ( .p12, .cert, dll ) itu memiliki public key dan private key tersendiri. Jadi apa keunikannya? Kan hanya sertifikat umum? Awalnya saya menyangka begitu. Ternyata Sertifikat Tanda Tangan Digital yang di berikan oleh KOMINFO memiliki KEY yang di buat secara aman atau sulit di pecahkan dan memiliki keuatan HUKUM.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Contoh penggunaannya :&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Pembuatan Tanda Tangan Digital dalam Dokumen Office. Di dalam aplikasi Office terdapat fitur Digital Signature, dan disana saat membuat Digital Signature kita bisa memasukan Sertifikat yang telah diberikan KOMINFO sebagai ke absahan Dokumen yang kita buat. Jadi jika anda ingin membuat Dokumen PENTING yang tidak mau di EDIT oleh orang lain dengan Digital Signature bisa terbukti ke Absahan dokumen tersebut asli atau tidak dari kita. Karna jika dokumen yang telah di buat dengan Digital Signature ( Tanda Tangan Digital ) di EDIT, Digital Signature di dalam Dokumen akan hilang dan dokumen tersebut bisa di bilang tidak asli dari pembuat.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Email, enkripsi pesan dan Tanda Tangan Digital di dalam EMAIL. Penggunaan Tanda Tangan Digital di dalam email adalah untuk memastikan email yang di terima oleh target adalah asli dari pengirim tersebut. Kadang di dalam dunia digital banyak sekali yang menggunakan email palsu atau mengatasnamakan orang lain. Disini peran Tanda Tangan Digital adalah untuk memastikan email yang kita dapat dari pengirim adalah asli dibuat si pengirimim. Ohiya sertifikat yang telah di berikan oleh KOMINFO adalah bersifat rahasia, sertifikat itu adalah identitas diri anda dalam dunia digital jadi jaga baik baik sertifkat dan sandinya.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Transaksi E-Commerce. Ke depannya di dalam E-Commerce di Indonesia nanti. Setiap transaksi di anjurkan menggunakan sertifikat sebagai Tanda Tangan Digital dalam transaksi, biasanya transaksi E-Commerce dengan kartu kredit bisa di manipulasi atau di bobol oleh parah penjahat cyber ( Hacker ). Dengan sertifikat sebagai Tanda Tangan Digital ini adalah untuk verifikasi transaksi yang di buat asli atau tidaknya. Di dalam seminar pun di simulasi kan ke dalam Aplikasi WEB untuk transaksi PER-BANKAN ( BANK ). Contoh dalam simulai adalah transfer uang ke rekening lain, saat transaksi pengguna di minta untuk memasukan sertifikat dan sandinya. Jika sertifikat dan sandi valid transaksi tersebut bisa di proses dan memiliki Tanda Tangan Digital.&lt;br /&gt;&lt;br /&gt;
-Kedepannya Tanda Tangan Digital ini bisa menjadi PUSAT IDENTITAS diri kita di dalam dunia DIGITAL. Contoh yang di sebutkan dalam seminar adalah, bila anda mendaftar ke suatu E-Commerce anda hanya di minta untuk melakukan Tanda Tangan Digital dan tidak perlu memasukan email, nama lengkap, alamat dan lain lain yang agak banyak karena Data Diri anda sudah terpusat di satu SISTEM jadi ga perlu repot repot daftar ke suatu E-Commerce / Web yang memerlukan registrasi dengan Tanda Tangan Digital data diri kita bisa langsung di dapat dan di daftarkan otomatis ke E-Commerce / Web tersebut.&lt;br /&gt;&lt;br /&gt;
-Tanda Tangan Digital pun menurut saya membantu pengaman security cyber Indonesia lebih baik, selain dari sisi teknologi juga dalam sisi HUKUM karena Identitas Semua orang yang sudah memiliki Sertifikat Tanda Tangan Digital dan memiliki keuatan hukum. Dari sini bisa saja penipuan yang sering terjadi dalam E-Commerce menurun karena adanya hukum, apalagi sekarang ada undang undang ITE ( Informasi dan Transaksi Elektronik ) jadi bisa memilih penjual di dalam E-Commerce ini aman atau tidak, dan pasti pembeli akan lebih memilih penjual yang mempunya Tanda Tangan Digital. Semoga kita sebagai mahasiswa bisa membantu penerapan, pengembangan, keamanan dan perekonomian dalam dunia digital di negara ini lebih baik lagi. Jadilah TUAN RUMAH di negeri sendiri dengan terus belajar dan mengembangkan produk-produk digital karena negara kita menjadi market / pasar negara besar. 
-&lt;br /&gt;&lt;br /&gt;Sekian terima kasih :)&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">1. Menambah wawasan ekonomi digital Dalam seminar Tanda Tangan Digital banyak sekali wawasan yang saya dapat, yang pertama yaitu tentang marketing di dalam dunia digital. Di dalam dunia digital ternyata bukan hanya sekedar ngoding dan membuat aplikasi, ternyata dari kita membuat aplikasi saja bisa membuat ekonomi negara naik. Contohnya amerika dengan facebook, google dan lain lain, amerika bisa di bilang penguasa bisnis digital di dunia. Dan dalam seminar pun di sebutkan kata kata yang bikin kaget, yaitu Indonesia menjadi target utama bisnis digital oleh Amerika dan China. Mungkin karena Indonesia adalah salah satu negara dengan penduduk terbanyak, dan produk digital yang meraka buat akan laku di pasar negeri ini. Sebenarnya kita harus bisa menjadi TUAN RUMAH di negeri sendiri dengan membuat produk produk digital dan digunakan oleh semua masyarakat atau dalam arti lain tidak kalah saing dengna produk digital / aplikasi buatan luar. Dan di bahas juga masalah ekonomi digital di Indoensia bukan hanya satu lembaga saja yaitu KOMINFO atau pihak pemerintah yang bersangkutan dengan teknologi digital. Akan tetapi banyak lembaga juga yang harus berkolaborasi untuk memajukan Ekonomi Digital ( E-Commerce ) di Indonesia, seperti Kementerian Keuangan, Perdangan, Koperasi, BUMN, Organisasi Digital dan lain lain untuk memajukan Ekonomi Digital di Indonesia.</summary></entry></feed>
+&lt;p&gt;Mungkin cukup sekian ulasan apa itu struktur data yang telah saya baca dari referensi tersebut.&lt;/p&gt;</content><author><name></name></author><summary type="html">Setelah yang saya baca tentang Struktur Data melalui referensi Wikipedia</summary></entry></feed>

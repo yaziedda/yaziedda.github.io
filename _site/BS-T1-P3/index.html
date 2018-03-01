@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BASIS-DATA-P1 POST 3 | Apa itu Conseptual DB? – Yazied DA – </title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Apa itu Conseptual DB?
+
+" />
+    <meta property="og:description" content="Apa itu Conseptual DB?
+
+" />
+    
+    <meta name="author" content="Yazied DA" />
+
+    
+    <meta property="og:title" content="BASIS-DATA-P1 POST 3 | Apa itu Conseptual DB?" />
+    <meta property="twitter:title" content="BASIS-DATA-P1 POST 3 | Apa itu Conseptual DB?" />
+    
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Yazied DA - " href="/feed.xml" />
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Yazied DA</a></h1>
+            <p class="site-description"></p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>BASIS-DATA-P1 POST 3 | Apa itu Conseptual DB?</h1>
+
+  <div class="entry">
+    <p><strong>Apa itu Conseptual DB?</strong></p>
+
+<hr />
+<p>Conceptual database design adalah proses membangun suatu model berdasarkan informasi yang digunakan oleh perusahaan atau organisasi, tanpa pertimbangan perencanaan fisik (Connolly,2002,p419).</p>
+
+<p><img src="https://image.slidesharecdn.com/advanceddatamodelingwithapachecassandra-150303140036-conversion-gate01/95/advanced-data-modeling-with-apache-cassandra-6-638.jpg?cb=1425391569" alt="Alt text" title="Step 1" /></p>
+
+<p>a. Entitiy types</p>
+
+<p>Menurut Connoly (2002,p331), entity types adalah kumpulan objek yang mempunyai karakteristik yang sama, dimana telah diidentifikasi oleh perusahaan.Menurut Silberschatz (2002,p27), entity types adalah kumpulan dari entity yang memiliki tipe dan karakteristik yang sama.</p>
+
+<p>Entity dapat dibedakan menjadi dua yaitu :</p>
+
+<p>· Strong Entity : entity yang keberadaannya tidak tergantung kepada entity lain (Fathansyah,1999,p94).</p>
+
+<p>· Weak entity : entity yang keberadaannya tergantung dari entity lain (Fathansyah,1999,p94).</p>
+
+<p>Contohnya adalah entity mahasiswa dan orang tua. Dimana mahasiswa merupakan strong entity dan orang tua merupakan weak entity karena keberadaan entity orang tua tergantung dari entity mahasiswa.</p>
+
+<p>b. Relationship types</p>
+
+<p>Menurut Connolly (2002,p334) definisi dari relationship types adalah kumpulan antar entity yang saling berhubungan dan mempunyai arti.</p>
+
+<p>c. Attribute dan attribute domains</p>
+
+<p>Attribute adalah karakteristik dari suatu entity atau relasi (Connolly,2002,p338). Setiap attribute diperbolehkan untuk memiliki nilai yang disebut dengan domain. Attribute domains adalah kumpulan dari nilai-nilai yang diperbolehkan untuk satu atau lebih attribute.</p>
+
+<p>Ada beberapa jenis dalam attribute :</p>
+
+<p>· Simple attribute dan Composite attribute</p>
+
+<p>Simple attribute adalah attribute yang terdiri dari komponen tunggal dimana attribute tersebut tidak dapat dipisahkan lagi, sedangkan composite attribute adalah attribute yang masih dapat dipisahkan menjadi beberapa bagian. Contoh dari simple attribute adalah nama_barang sedangkan untuk composite attribute adalah alamat pada entity mahasiswa, karena dalam alamat bisa dibagi menjadi bagian entiti jalan, entiti kode_pos dan entiti kota (Silberchatz,2002,p29).</p>
+
+<p>· Single-valued attribute dan Multi-valued attribute</p>
+
+<p>Single-valued attribute adalah attribute yang memiliki satu nilai pada setiap entity, sedangkan multi-valued attribute adalah attribute yang mempunyai beberapa nilai pada setiap entity (Connolly,2002,p340). Contoh dari single-valued attribute adalah Nim, nama_Mhs, tanggal_lahir, dan lain-lain. Sedangkan untuk multi-valued attribute contohnya adalah jam_pelajaran, hobi, dan lain-lain.</p>
+
+<p>· Derived attribute</p>
+
+<p>Derived attribute merupakan attribute yang nilai-nilainya diperoleh dari hasil perhitungan atau dapat diturunkan dari attribute lain yang berhubungan (Silberschatz,2002,p30). Contohnya adalah attribute umur pada entity mahasiswa dimana attribute tersebut diturunkan dari attribute tanggal_lahir dan tanggal_hari_ini.</p>
+
+<p>d. Primary key dan alternate keys</p>
+
+<p>Primary key adalah key yang telah menjadi candidate key yang dipilih secara unik untuk mengidentifikasi suatu entity types. Candidate key adalah kumpulan attribute minimal yang unik untuk mengidentifikasikan suatu entity types (Connolly,2002,p340).</p>
+
+<p>Alternate key adalah key yang digunakan sebagai alternatif dari key yang telah didefinisikan (Fathansyah,1999,p104).</p>
+
+<p>e. Integrity constraints</p>
+
+<p>Integrity constraints adalah batasan-batasan yang menentukan dalam rangka melindungi basis data untuk menghindari terjadinya inconsistent. (Connolly,2002,p457).</p>
+
+<p>Pada tahap conceptual model, langkah-langkah yang dilakukan adalah sebagai berikut :</p>
+
+<p>a. Mengidentifikasi entity types</p>
+
+<p>Bertujuan untuk menentukan entity types utama yang dibutuhkan. Menentukan entity dapat dilakukan dengan memeriksa user’s requirement specification. Setelah terdefinisi, entity diberikan nama yang tepat dan jelas seperti mahasiswa, dosen, mata_kuliah.</p>
+
+<p>b. Mengidentifikasikan relationship types</p>
+
+<p>Bertujuan untuk mengidentifikasi suatu relationship yang penting yang ada antar entity yang telah diidentifikasi. Nama dari suatu relationship menggunakan kata kerja seperti mempelajari, memiliki mempunyai dan lain-lain.</p>
+
+<p>c. Mengidentifikasi dan menghubungkan attribute dengan entity atau relationship types</p>
+
+<p>Bertujuan untuk menghubungkan attribute dengan entity atau relationship yang tepat. Attribute yang dimiliki setiap entity atau relationship memiliki identitas atau karakteristik yang sesuai dengan memperhatikan attribute berikut : simple/composite attribute, single/multi-valued attribute dan derived attribute.</p>
+
+<p>d. Menentukan attribute domain</p>
+
+<p>Bertujuan untuk menentukan attribute domain pada conceptual data model. Contohnya yaitu menentukan nilai attribute jenis_kelamin pada entity mahasiswa dangan ‘M’ atau ‘F’ atau nilai attribute sks pada entity mata_kuliah dengan ‘1’, ’2’, ‘3’ dan ‘4’.</p>
+
+<p>e. Menentukan candidate key dan primary key attributes</p>
+
+<p>Bertujuan untuk mengidentifikasi candidate key pada setiap entity dan memilih primary key jika ada lebih dari satu candidate key. Pemilihan primary key didasari pada panjang dari attribute dan keunikan key di masa datang.</p>
+
+<p>f. Mempertimbangkan penggunaan enhance modeling concepts (pilihan)</p>
+
+<p>Pada langkah ini bertujuan untuk menentukan specialization, generalization, aggregation, composition. Dimana masing-masing pendekatan dapat dilakukan sesuai dengan kebutuhan yang ada.</p>
+
+<p>Specialization dan generalization adalah proses dalam mengelompokan beberapa entity dan menghasilkan entity yang baru. Beda dari keduanya adalah cara prosesnya, dimana spesialisasi menggunakan proses top-down dan generalisasi menggunakan proses bottom-up.</p>
+
+<p>Aggregation menggambarkan sebuah entity types dengan sebuah relationship types dimana suatu relasi hanya akan ada jika telah ada relationship lainnya.</p>
+
+<p>g. Mengecek redundansi</p>
+
+<p>Bertujuan untuk memeriksa conceptual model untuk menghindari dari adanya informasi yang redundan. Yang dilakukan pada langkah ini adalah :</p>
+
+<p>· Memeriksa kembali one-to-one relationship.</p>
+
+<p>Setelah entity diidentifikasikan maka kemungkinan ada dua entity yang mewakili satu objek. Untuk itu dua entity tersebut harus di-merger bersama. Dan jika primary key-nya berbeda maka harus dipilih salah satu dan lainnya dijadikan alternate key.</p>
+
+<p>· Menghilangkan relasi yang redundansi.</p>
+
+<p>Untuk menekan jumlah model data, maka relationship data yang redundan harus dihilangkan.</p>
+
+<p>h. Memvalidasi conceptual model dengan transaksi.</p>
+
+<p>Bertujuan untuk menjamin bahwa conceptual data model mendukung kebutuhan transaksi. Dengan menggunakan model yang telah divalidasi tersebut, dapat digunakan untuk melaksanakan operasi secara manual. Ada dua pendekatan yang mungkin untuk mejamin bahwa local conceptual data model mendukung kebutuhan transaksi yaitu :</p>
+
+<p>· Mendeskripsikan transaksi</p>
+
+<p>Memeriksa seluruh informasi (entities, relationship, dan attribute) yang diperlukan pada setiap transaksi yang disediakan oleh model dengan mendokumentasikan penggambaran dari tiap kebutuhan transaksi.</p>
+
+<p>· Mengunakan transaksi pathways</p>
+
+<p>Pendekatan kedua, untuk memvalidasi data model dengan keperluan transaksi yang melibatkan diagram yang mewakili pathways diambil dari tiap transaksi secara langsung yang terdapat pada E-R diagram menggambarkan komponen-komponen dari entity dan relasi yang masing-masing dilengkapi dengan attribute-attribute yang merepresentasikan seluruh fakta dari real-world yang kita tinjau (Fathansyah,1999,p79). Sedangkan menurut Silberschartz (2002,p42), E-R diagram dapat menyatakan keseluruhan struktur logical dari basis data dengan menggunakan bagan.</p>
+
+<p>i. Melihat kembali conceptual data model dengan pengguna.</p>
+
+<p>Bertujuan untuk melihat kembali conceptual model dan memastikan bahwa data model tersebut sudah benar.</p>
+
+  </div>
+
+  <div class="date">
+    Written on February 24, 2018
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/yaziedda"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/yaziedda"><i class="svg-icon twitter"></i></a>
+<a href="http://stackoverflow.com/users/5408944/yaziedda"><i class="svg-icon stackoverflow"></i></a>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
