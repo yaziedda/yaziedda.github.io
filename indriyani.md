@@ -1,18 +1,8 @@
 ---
 layout: page
-title: For Indriyani
+title: Dear Didi
 permalink: /indriyani/
 ---
-
-My Project Euler username is <b>yaziedda</b><br>
-[Wikipedia ](https://id.wikipedia.org/wiki/Pengguna:Yaziedda)<br><br>
-Student Informatics Engineering of [Universitas Buana Perjuangan](http://ubpkarawang.ac.id/) 
-### Social Hub
-Github : [yaziedda](https://github.com/yaziedda)<br>
-
-### Contact
-[yazieddabr@gmail.com](mailto:yazieddabr@gmail.com)
-
 Mencintai dengan tulus adalah kata kerja yang terindah bagi setiap jiwa yang hidup. Banyak yang lupa akan ketulusan cinta. Karna cinta akan sampai nanti dihidup kita setelah fana ini berlalu. Semua telah dijabarkan dalam kita suci kita. Karna mencintai seseorang adalah nyata bentuknya dan paling dekat dengan kita saat menjalani semua nikmat, kebahagiaan sampai problema dengan yang paling utama yaitu sang maha romantis  dan segalanya yaitu Allah SWT.
 
 Wahai didi, mungkin engkau tahu dulu kupernah mengungkanpan perasaan ini padamu dengan dinodai oleh perasaanku sendiri yang masih memiliki kekasih dulu. Tapi bila bicara soal hati tak sanggup rasanya menahan karena hidup selalu terpaut oleh waktu, kesibukan, bahkan kematian mungkin saat itu hanya kematianlah yang belum datang sehingga waktu dan kesibukan dapat kuhancurkan demi pengungkapan itu.
