@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dear Didi
-permalink: /indriyani/
+permalink: /didi-hide/
 ---
 Mencintai dengan tulus adalah kata kerja yang terindah bagi setiap jiwa yang hidup. Banyak yang lupa akan ketulusan cinta. Karna cinta akan sampai nanti dihidup kita setelah fana ini berlalu. Semua telah dijabarkan dalam kita suci kita. Karna mencintai seseorang adalah nyata bentuknya dan paling dekat dengan kita saat menjalani semua nikmat, kebahagiaan sampai problema dengan yang paling utama yaitu sang maha romantis  dan segalanya yaitu Allah SWT.
 
