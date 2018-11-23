@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kuanggap mereka adalah dirimu
+title: Awesome potret
 permalink: /lia/
 ---
 
