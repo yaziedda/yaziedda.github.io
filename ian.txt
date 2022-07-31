@@ -1,0 +1,8 @@
+<span id="a">user@bitskylab.tech</span>:<span id="b">~</span><span id="c">$</span> cd bitskylab.app/<!-- laglaglaglaglaglag -->about
+<span id="a">user@bitskylab.tech</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglag -->about_bitskylab.txt<br/><br/>
+<p>Hey there! We're Bitskylab tech.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>Bitskylab telah berdiri sejak tahun 2017 di Karawang. Pada awalnya berfokus di pengembangan aplikasi bergerak, menjadi pioneer pengembangan aplikasi mobile di Karawang. Saat ini, Bitskylab telah berkembang dengan memiliki beberapa unit bisnis yang membentuk suatu semesta teknologi dan talenta terintegrasi untuk menuju Indonesia yang berdaya di era transformasi digital.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+<p>Selama lebih dari 5 tahun, perusahaan telah membangun 20+ perangkat lunak untuk UMKM, tech startup dan perusahaan multinasional. Bitskylab telah mengembangkan bisnis dengan membangun sinergi kolaboratif pada ekosistem usaha yang terdiri dari Alkademi - penyedia talenta digital, Bitskylab - jasa layanan konsultasi teknologi dan informasi serta Tosanarka - lab desain dan inovasi perangkat keras.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+<p>Anda tertarik? Hubungi kami lebih lanjut <a href="https://wa.me/6285156439056" target="_blank">here</a>!</p> <!-- delaydelaydelaydelaydelaydelaydelay -->
+<p>Please feel free to contact us <!-- slightdelayhere--> at <!-- longlonglongcomment --><a href="https://go.dev/play/p/_73tMvlkyn2" target="_blank">aHR0cHM6Ly93YS5tZS82Mjg1MTU2NDM5MDU2 (in base64)</a>.</p><br/><br/>
+<span id="a">user@bitskylab.tech</span>:<span id="b">~</span><span id="c">$</span> exit 
