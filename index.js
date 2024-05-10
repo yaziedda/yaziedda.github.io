@@ -98,7 +98,7 @@ function replaceUrls(text) {
 }
 
 Typer.speed = 3;
-Typer.file = "ian.txt";
+Typer.file = "yaziedda.txt";
 Typer.init();
 
 var timer = setInterval("t();", 30);
