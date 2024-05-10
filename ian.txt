@@ -1,8 +1,20 @@
-<span id="a">user@bitskylab.tech</span>:<span id="b">~</span><span id="c">$</span> cd bitskylab.app/<!-- laglaglaglaglaglag -->about
-<span id="a">user@bitskylab.tech</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglag -->about_bitskylab.txt<br/><br/>
-<p>Hey there! We're Bitskylab tech.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-<p>Bitskylab telah berdiri sejak tahun 2017 di Karawang. Pada awalnya berfokus di pengembangan aplikasi bergerak, menjadi pioneer pengembangan aplikasi mobile di Karawang. Saat ini, Bitskylab telah berkembang dengan memiliki beberapa unit bisnis yang membentuk suatu semesta teknologi dan talenta terintegrasi untuk menuju Indonesia yang berdaya di era transformasi digital.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
-<p>Selama lebih dari 5 tahun, perusahaan telah membangun 20+ perangkat lunak untuk UMKM, tech startup dan perusahaan multinasional. Bitskylab telah mengembangkan bisnis dengan membangun sinergi kolaboratif pada ekosistem usaha yang terdiri dari Alkademi - penyedia talenta digital, Bitskylab - jasa layanan konsultasi teknologi dan informasi serta Tosanarka - lab desain dan inovasi perangkat keras.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
-<p>Anda tertarik? Hubungi kami lebih lanjut <a href="https://wa.me/6285156439056" target="_blank">here</a>!</p> <!-- delaydelaydelaydelaydelaydelaydelay -->
-<p>Please feel free to contact us <!-- slightdelayhere--> at <!-- longlonglongcomment --><a href="https://go.dev/play/p/_73tMvlkyn2" target="_blank">aHR0cHM6Ly93YS5tZS82Mjg1MTU2NDM5MDU2 (in base64)</a>.</p><br/><br/>
-<span id="a">user@bitskylab.tech</span>:<span id="b">~</span><span id="c">$</span> exit 
+<span id="a">yazieddabr@gmail.com</span>:<span id="b">~</span><span id="c">$</span> cd yaziedda/<!-- laglaglaglaglaglag -->about
+<span id="a">yazieddabr@gmail.com</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglag -->yaziedda.txt<br/><br/>
+<p>Hey there! My name is Yazied.</p><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>
+My full name is Yazied Dhiya Uddien Abdurrahman, I started my career 
+in the world of Software Engineering in 2015, approximately 9 years ago as an Android Developer 
+when I first left formal vocational school, after 1 year of work I continued my formal college education 
+in In 2016 - 2020, during college I was still working/freelancing as a Full Stack Engineer in various 
+companies, I was an Expert Staff Software Engineer in a government agency, after graduating from 
+college in November 2020 I entered a Startup as an Android Developer and created applications from 
+zero to 10,000 Download with Crash-Free above 95%, then in 2021 I joined LinkAja as a Senior Android Developer
+</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+<p>
+Then in 2022 there was an opportunity to become a Senior Backend Engineer and because I have the 
+ability not only on 1 platform, I converted from Senior Android Engineer to Senior Backend Engineer 
+at LinkAja, during my time as a Senior Backend Engineer.
+</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+<p>Contact <a href="https://wa.me/6289662549895" target="_blank">here</a>!</p> <!-- delaydelaydelaydelaydelaydelaydelay -->
+<p>Please feel free to contact us <!-- slightdelayhere--> at <!-- longlonglongcomment --><a href="https://go.dev/play/p/aOVrwf4bPRJ" target="_blank">aHR0cHM6Ly93YS5tZS82Mjg5NjYyNTQ5ODk1 (in base64)</a>.</p><br/><br/>
+<span id="a">yazieddabr@gmail.com</span>:<span id="b">~</span><span id="c">$</span> exit 
