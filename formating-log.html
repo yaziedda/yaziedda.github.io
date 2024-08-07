@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Formatter</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<h1>JSON Formatter</h1>
+<textarea id="jsonInput" rows="10" cols="50" placeholder="Paste your JSON here"></textarea><br>
+<button id="formatButton">Format JSON</button><br>
+<textarea id="jsonOutput" rows="10" cols="50" placeholder="Formatted JSON will appear here"></textarea><br>
+<button id="copyButton">Copy JSON</button>
+
+<script>
+    $(document).ready(function() {
+        $('#formatButton').click(function() {
+            try {
+                var jsonString = $('#jsonInput').val();
+                var jsonStrings = JSON.parse(jsonString);
+
+                if (!Array.isArray(jsonStrings) || !jsonStrings.every(arr => Array.isArray(arr))) {
+                    throw new Error('Invalid JSON format');
+                }
+
+                var allFormattedJSON = [];
+
+                jsonStrings.forEach(function(jsonStringArray, i) {
+                    jsonStringArray.forEach(function(jsonStr, j) {
+                        try {
+                            var prettyJSON = JSON.parse(jsonStr);
+
+                            if (typeof prettyJSON.message === 'string') {
+                                try {
+                                    var innerJSON = JSON.parse(prettyJSON.message);
+                                    prettyJSON.message = innerJSON;
+                                } catch (e) {
+                                    // Do nothing if message is not a valid JSON
+                                }
+                            }
+
+                            delete prettyJSON.kubernetes;
+
+                            allFormattedJSON.push(prettyJSON);
+                        } catch (e) {
+                            throw new Error(`Error parsing JSON string ${i}.${j}: ${e.message}`);
+                        }
+                    });
+                });
+
+                var formattedJSON = JSON.stringify(allFormattedJSON, null, 2);
+                $('#jsonOutput').val(formattedJSON);
+            } catch (e) {
+                alert('Invalid JSON: ' + e.message);
+            }
+        });
+
+        $('#copyButton').click(function() {
+            var formattedJSON = $('#jsonOutput').val();
+            navigator.clipboard.writeText(formattedJSON).then(function() {
+                alert('Formatted JSON copied to clipboard');
+            }, function(err) {
+                alert('Failed to copy JSON: ' + err);
+            });
+        });
+    });
+</script>
+</body>
+</html>
