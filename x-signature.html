@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Generator and Verifier</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5 mb-5">
+        <h1 class="text-center mb-4">Signature Generator & Verifier</h1>
+
+        <div class="row">
+            <div class="col-6">
+                <h3>Generate Signature</h3>
+                <form id="signatureForm">
+                    <div class="mb-3">
+                        <label for="httpMethod" class="form-label">HTTP Method</label>
+                        <input type="text" class="form-control" id="httpMethod" name="httpMethod" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="path" class="form-label">Path</label>
+                        <input type="text" class="form-control" id="path" name="path" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="timestamp" class="form-label">Timestamp</label>
+                        <input type="text" class="form-control" id="timestamp" name="timestamp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="privateKeyCredential" class="form-label">Private Key Credential</label>
+                        <textarea class="form-control" id="privateKeyCredential" name="privateKeyCredential" rows="4"
+                            required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="reqBody" class="form-label">Request Body</label>
+                        <textarea class="form-control" id="reqBody" name="reqBody" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Generate Signature</button>
+                </form>
+
+                <h3 class="mt-4">Generated Signature:</h3>
+                <textarea class="form-control" id="signature" readonly rows="4"></textarea>
+                <div id="errorMessage" class="mt-3 text-danger" style="display:none;">
+                    <strong>Error:</strong> Something went wrong. Please check the inputs.
+                </div>
+            </div>
+
+            <div class="col-6">
+                <h3>Verify Signature</h3>
+                <form id="verifyForm">
+                    <div class="mb-3">
+                        <label for="verify_httpMethod" class="form-label">HTTP Method</label>
+                        <input type="text" class="form-control" id="verify_httpMethod" name="verify_httpMethod" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="verify_path" class="form-label">Path</label>
+                        <input type="text" class="form-control" id="verify_path" name="verify_path" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="verify_timestamp" class="form-label">Timestamp</label>
+                        <input type="text" class="form-control" id="verify_timestamp" name="verify_timestamp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="verify_publicKeyCredential" class="form-label">Public Key Credential</label>
+                        <textarea class="form-control" id="verify_publicKeyCredential" name="verify_publicKeyCredential" rows="4" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="verify_reqBody" class="form-label">Request Body</label>
+                        <textarea class="form-control" id="verify_reqBody" name="verify_reqBody" rows="4" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="verify_Signature" class="form-label">X-Signature</label>
+                        <textarea class="form-control" id="verify_Signature" name="verify_Signature" rows="4"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Verify Signature</button>
+                </form>
+
+                <h3 class="mt-4">Verification Result:</h3>
+                <input type="text" class="form-control" id="verifyResult" readonly/>
+                <div id="verifyErrorMessage" class="mt-3 text-danger" style="display:none;">
+                    <strong>Error:</strong> Something went wrong while verifying the signature.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            function getRFC3339Timestamp() {
+                const now = new Date();
+                return now.toISOString();
+            }
+
+            $('#timestamp').val(getRFC3339Timestamp());
+
+            $('#signatureForm').on('submit', function (event) {
+                event.preventDefault();
+
+                var httpMethod = $('#httpMethod').val().trim();
+                var path = $('#path').val().trim();
+                var timestamp = $('#timestamp').val().trim();
+                var privateKeyCredential = $('#privateKeyCredential').val().trim();
+                var reqBody = $('#reqBody').val().trim();
+
+                $('#errorMessage').hide();
+
+                if (!httpMethod || !path || !timestamp || !privateKeyCredential || !reqBody) {
+                    $('#errorMessage').text('All fields are required.').show();
+                    return;
+                }
+
+                try {
+                    asymmetricSignature(httpMethod, path, timestamp, privateKeyCredential, reqBody)
+                        .then(signature => {
+                            $('#signature').val(signature);
+                        })
+                        .catch(err => {
+                            $('#signature').val("Error:"+ err);
+                        });
+                } catch (error) {
+                    $('#errorMessage').text('An error occurred while generating the signature. Please check your inputs.').show();
+                    console.error(error);
+                }
+            });
+
+            async function asymmetricSignature(httpMethod, path, timestamp, privateKeyCredential, reqBody) {
+                try {
+                    const jsonBody = JSON.stringify(reqBody).trim();
+                    const hash = CryptoJS.SHA256(jsonBody).toString(CryptoJS.enc.Hex).toLowerCase();
+                    const signatureData = `${httpMethod}:${path}:${hash}:${timestamp}`;
+                    const hashedData = CryptoJS.SHA256(signatureData).toString(CryptoJS.enc.Hex);
+                    const privateKey = await importPrivateKey(privateKeyCredential);
+                    const hashedBuffer = new Uint8Array(
+                        hashedData.match(/.{1,2}/g).map(byte => parseInt(byte, 16))
+                    );
+                    const signature = await crypto.subtle.sign(
+                        { name: "RSASSA-PKCS1-v1_5" },
+                        privateKey,
+                        hashedBuffer
+                    );
+
+                    return btoa(String.fromCharCode(...new Uint8Array(signature)));
+                } catch (error) {
+                    console.error("Error generating signature:", error);
+                    throw error;
+                }
+            }
+
+            async function importPrivateKey(pem) {
+                const pemContents = pem
+                    .replace(/-----BEGIN PRIVATE KEY-----/, "")
+                    .replace(/-----END PRIVATE KEY-----/, "")
+                    .replace(/\s/g, "");
+
+                const binaryDer = Uint8Array.from(atob(pemContents), char => char.charCodeAt(0));
+
+                return await crypto.subtle.importKey(
+                    "pkcs8",
+                    binaryDer.buffer,
+                    { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
+                    false,
+                    ["sign"]
+                );
+            }
+
+            async function verifyAsymmetricSignature(httpMethod, path, timestamp, reqBody, publicKeyCredential, signature) {
+                try {
+                    const jsonBody = JSON.stringify(reqBody).trim();
+                    const hash = CryptoJS.SHA256(jsonBody).toString(CryptoJS.enc.Hex).toLowerCase();
+                    const signatureData = `${httpMethod}:${path}:${hash}:${timestamp}`;
+                    const hashedData = CryptoJS.SHA256(signatureData).toString(CryptoJS.enc.Hex);
+                    const signatureArray = Uint8Array.from(atob(signature), char => char.charCodeAt(0));
+                    const publicKey = await importPublicKey(publicKeyCredential);
+                    const hashedBuffer = new Uint8Array(
+                        hashedData.match(/.{1,2}/g).map(byte => parseInt(byte, 16))
+                    );
+
+                    const isValid = await crypto.subtle.verify(
+                        { name: "RSASSA-PKCS1-v1_5" },
+                        publicKey,
+                        signatureArray,
+                        hashedBuffer
+                    );
+
+                    return isValid;
+                } catch (error) {
+                    console.error("Error verifying signature:", error);
+                    throw error;
+                }
+            }
+
+            async function importPublicKey(pem) {
+                const pemContents = pem
+                    .replace(/-----BEGIN PUBLIC KEY-----/, "")
+                    .replace(/-----END PUBLIC KEY-----/, "")
+                    .replace(/\s/g, "");
+
+                const binaryDer = Uint8Array.from(atob(pemContents), char => char.charCodeAt(0));
+
+                return await crypto.subtle.importKey(
+                    "spki",
+                    binaryDer.buffer,
+                    { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
+                    false,
+                    ["verify"]
+                );
+            }
+
+
+
+            $('#verifyForm').on('submit', function (event) {
+                event.preventDefault();
+                 
+                var httpMethod = $('#verify_httpMethod').val().trim();
+                var path = $('#verify_path').val().trim();
+                var timestamp = $('#verify_timestamp').val().trim();
+                var publicKeyCredential = $('#verify_publicKeyCredential').val().trim();
+                var reqBody = $('#verify_reqBody').val().trim();
+                var xSignature = $('#verify_Signature').val().trim();
+
+
+                $('#verifyErrorMessage').hide();
+
+                if (!httpMethod || !path || !timestamp || !publicKeyCredential || !reqBody || !xSignature) {
+                    $('#verifyErrorMessage').text('All fields are required for verification.').show();
+                    return;
+                }
+
+                try {
+                    verifyAsymmetricSignature(httpMethod, path, timestamp, reqBody, publicKeyCredential, xSignature)
+                        .then(isValid => {
+                            if (isValid) {
+                                $('#verifyResult').val("VALID!")
+                                    .removeClass('is-invalid')
+                                    .addClass('is-valid');
+                            } else {
+                                $('#verifyResult').val("INVALID!")
+                                    .removeClass('is-valid')
+                                    .addClass('is-invalid');
+                            }
+                        })
+                        .catch(err => {
+                            console.error("Error:", err);
+                        });
+                } catch (error) {
+                    $('#verifyErrorMessage').text('An error occurred while verifying the signature. Please check your inputs.').show();
+                    console.error(error);
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
